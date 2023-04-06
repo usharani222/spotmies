@@ -1,10 +1,16 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import HoverButton from "./reusableComponent/hoverButton";
-import { AiOutlineArrowRight } from "react-icons/ai";
+import {
+  AiOutlineArrowRight,
+  AiOutlineFileDone,
+  AiOutlineSearch,
+  AiOutlineSwap,
+  AiOutlineUsergroupAdd,
+} from "react-icons/ai";
 
 const video =
-  "https://nftstorage.link/ipfs/bafybeibuy37sopoqdvr6tll235d7byu4oqusv5jxmnrclwh637ytcakzya";
+  "https://nftstorage.link/ipfs/bafybeifueea4vkn7eojj4ja7bupwyjca7nrutdqxscj6h3tq7jw7rizgbq";
 // "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2Fvideo2.mp4?alt=media&token=d11e2881-1e5a-4952-8d65-97fbed0fb6f4";
 // "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/video.mp4?alt=media&token=e5bab7cd-0077-4974-a2b2-88dd82358a02";
 
@@ -15,7 +21,7 @@ const LandingSlide = () => {
       id="home"
     >
       <div
-        className="absolute inset-0 bg-primary opacity-60 w-full h-full rounded-none "
+        className="absolute inset-0 bg-black opacity-40 w-full h-full rounded-none "
         style={{ zIndex: "9" }}
       ></div>
       <div className="fixed top-0 left-0 h-fit w-full z-50">
@@ -28,15 +34,25 @@ const LandingSlide = () => {
         muted
         className="absolute top-0 left-0 h-full w-full object-cover z-0"
       />
-      <div className="absolute z-10 text-center text-white animated">
-        <h1 className="text-4xl md:text-6xl lg:text-7xl gil-bold mb-4">
-          Creative solutions for better business
+      {/* <div className="absolute h-[60vh] bg-black opacity-50 w-[7vw] left-0" /> */}
+      <div className="absolute h-[60vh] w-[7vw] left-0 flex flex-row items-center justify-center">
+        <div className="relative z-10 bg-white rounded-full w-2 h-2 m-2" />
+        <div className="relative z-10 bg-white rounded-full w-2 h-2 m-2" />
+        <div className="relative z-10 bg-white rounded-full w-2 h-2 m-2" />
+        
+
+        <div className="absolute inset-0 bg-black opacity-50 rounded-lg" />
+      </div>
+
+      <div className="absolute z-10 text-center text-white animated w-[80%]">
+        <h1 className="text-3xl md:text-4xl lg:text-6xl gil-bold mb-4 text-left w-[70%] opacity-85">
+          Innovative solutions to stay ahead of the competition
         </h1>
-        <p className="text-sm md:text-lg lg:text-xl mb-8">
-          We offer innovative software solutions that fuel business growth
-          through creative problem-solving.
+        <p className="text-sm md:text-lg lg:text-md mb-8 text-left opacity-70 w-[60%]">
+          Professional services that deliver exceptional quality, reliability,
+          and customer service to exceed your expectations.
         </p>
-        <div className="w-full flex flex-row items-center justify-center z-50">
+        <div className="w-full flex flex-row items-center justify-left z-50 ml-1">
           <HoverButton
             onClick={() => {
               // scroll to view by id
@@ -46,10 +62,33 @@ const LandingSlide = () => {
             }}
             text="Read More"
             className="bg-transparent  border hover:text-primary hover:bg-white border-white hover:border-white"
-            icon={<AiOutlineArrowRight className="ml-2" />}
+            // icon={<AiOutlineArrowRight className="ml-2" />}
           />
         </div>
       </div>
+      {/* <div className="absolute z-10 bottom-0 w-[100%] rounded-sm shadow-xl bg-primary opacity-50 h-32">
+        <div className="h-full w-full z-20 flex flex-col md:flex-row justify-around items-center">
+          <div className="flex flex-col items-center justify-center">
+            <p className="text-white text-[2.5rem] font-bold mb-0">30 +</p>
+            <p className="text-white text-[1.5rem] font-extrabold flex flex-row items-center">
+              <AiOutlineUsergroupAdd className="mr-2" />
+              <span> Recruiters</span>
+            </p>
+          </div>
+          <div className="flex flex-col items-center justify-center">
+            <p className="text-white text-[2.5rem] font-bold mb-0 ">300 +</p>
+            <p className="text-white text-[1.5rem] font-extrabold flex flex-row items-center">
+              <AiOutlineFileDone className="mr-2" /> Job seekers
+            </p>
+          </div>
+          <div className="flex flex-col items-center justify-center">
+            <p className="text-white text-[2.5rem] font-black mb-0">50 +</p>
+            <p className="text-white text-[1.5rem] font-extrabold flex flex-row items-center">
+              <AiOutlineSwap className="mr-2" /> Onboarded
+            </p>
+          </div>
+        </div>
+      </div> */}
     </section>
   );
 };
@@ -92,14 +131,16 @@ export const Navbarr = () => {
       <div className="container mx-auto flex justify-between items-center py-4">
         <div className="flex items-center">
           <img
-            src={ toggleNavbar ? "/spotmies_banner.png" : "/spotmies_banner.png"}
+            src={toggleNavbar ? "/spotmies_banner.png" : "/spotmies_banner.png"}
             alt="Logo"
             className="h-10 cursor-pointer"
           />
         </div>
         <div className="flex items-center">
           <button
-            className={ `${toggleNavbar ? "text-primary" : "text-white"} hover:text-secundary focus:outline-none md:hidden` }
+            className={`${
+              toggleNavbar ? "text-primary" : "text-white"
+            } hover:text-secundary focus:outline-none md:hidden`}
             aria-label="Menu"
             onClick={toggleMenu}
           >
@@ -125,30 +166,22 @@ export const Navbarr = () => {
           >
             Services
           </a>
-          <a
+          {/* <a
             onClick={() => navigation("industries")}
             className={`${
               toggleNavbar ? "text-primary" : "text-white"
             }  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer`}
           >
             Industries
-          </a>
-          <a
+          </a> */}
+          {/* <a
             onClick={() => navigation("career")}
             className={`${
               toggleNavbar ? "text-primary" : "text-white"
             }  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer`}
           >
             Career
-          </a>
-          <a
-            onClick={() => navigation("articles")}
-            className={`${
-              toggleNavbar ? "text-primary" : "text-white"
-            }  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer`}
-          >
-            Blogs
-          </a>
+          </a> */}
           <a
             onClick={() => navigation("aboutUs")}
             className={`${
@@ -158,12 +191,28 @@ export const Navbarr = () => {
             About Us
           </a>
           <a
+            onClick={() => navigation("articles")}
+            className={`${
+              toggleNavbar ? "text-primary" : "text-white"
+            }  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer`}
+          >
+            Blogs
+          </a>
+
+          <a
             onClick={() => navigation("contactUs")}
             className={`${
               toggleNavbar ? "text-primary" : "text-white"
             }  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer`}
           >
             Contact Us
+          </a>
+          <a
+            className={`${
+              toggleNavbar ? "text-primary" : "text-white"
+            }  mx-4 border-b-2 border-transparent  cursor-pointer`}
+          >
+            <AiOutlineSearch className="text-2xl hover:text-primary" />
           </a>
         </div>
       </div>
