@@ -133,6 +133,28 @@ a {
   font-family: "Gilroy Light";
 }
 
+.onHoverShow {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all 0.3s ease-in-out;
+}
+
+.industry-card:hover .onHoverShow {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 0.3s ease-in-out;
+}
+.industry-card:hover .opacity-layer {
+  opacity: 0.6;
+  transform: translateY(0);
+  transition: all 0.3s ease-in-out;
+}
+.opacity-layer {
+  opacity: 0.3;
+  transform: translateY(0);
+  transition: all 0.3s ease-in-out;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
