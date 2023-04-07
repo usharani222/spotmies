@@ -3,7 +3,7 @@ import { BsArrowRight } from "react-icons/bs";
 
 export default function Services() {
   return (
-    <div className="w-[100vw] h-[100vh]" id="services">
+    <div className="w-[100vw] h-[100vh] bg-bg2" id="services">
       <div className="flex flex-col justify-center w-[90%] h-full py-[8%] m-auto">
         <p className="gil-bold text-6xl text-left pb-12">What We Offer</p>
         <div className="w-full h-full m-auto flex flex-row items-center justify-center ">

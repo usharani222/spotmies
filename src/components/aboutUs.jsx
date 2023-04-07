@@ -1,40 +1,16 @@
-"use client";
 import React from "react";
 import ClientLogos from "./reusableComponent/horizontal_scrolling/client_logo_scrolling";
-import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
-import { dummyClients } from "@/constants";
+import ClientCarouselLogos from "./reusableComponent/horizontal_scrolling/client_carousel";
+import { AiOutlineAlignRight, AiOutlineArrowRight } from "react-icons/ai";
+import { BsArrowUpRight, BsArrowUpRightCircle } from "react-icons/bs";
 
 export default function AboutUs() {
-  const responsive2 = {
-    superLargeDesktop: {
-      // the naming can be any, depends on you.
-      breakpoint: { max: 4000, min: 3000 },
-      items: 6,
-      partialVisibilityGutter: 0,
-    },
-    desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 5,
-      partialVisibilityGutter: 70,
-    },
-    tablet: {
-      breakpoint: { max: 1024, min: 464 },
-      items: 1,
-      partialVisibilityGutter: 0,
-    },
-    mobile: {
-      breakpoint: { max: 464, min: 0 },
-      items: 1,
-      partialVisibilityGutter: 0,
-    },
-  };
   return (
     <div className="w-[100vw] h-fit min-h-[100vh] bg-neutral-900">
       <div className="w-[90%] h-[90vh] m-auto py-12">
         <div className="flex flex-row w-full items-start justify-between h-[30%]">
           <div className="flex flex-col items-start justify-center w-fit h-full text-text_color1">
-            <p className="gil-med text-8xl ">
+            <p className="gil-med text-7xl ">
               We Are <span className="text-primary">Creative</span>
             </p>
             <div className="flex flex-row w-full items-center pl-4 pt-4">
@@ -42,7 +18,7 @@ export default function AboutUs() {
                 <span className="text-xl gil-reg">Established</span> <br />
                 2019
               </p>
-              <p className="gil-med text-8xl ml-6">Digital Agency</p>
+              <p className="gil-med text-8xl ml-6">Tech Company</p>
             </div>
           </div>
           <div className="h-[50%] w-[1px] opacity-50 bg-bg2" />
@@ -70,40 +46,43 @@ export default function AboutUs() {
         </div>
         <div
           className="w-full h-[70vh] object-cover rounded-3xl mt-[10vh]"
-          // background image with parallax effect
           style={{
             backgroundImage: `url(https://images.unsplash.com/photo-1543269865-cbf427effbad?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80)`,
-            // backgroundAttachment: "fixed",
+
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
             position: "relative",
           }}
         ></div>
-        {/* <img
-          src="https://images.unsplash.com/photo-1543269865-cbf427effbad?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
-          className="w-full h-[70vh] object-cover rounded-3xl mt-[10vh]"
-        /> */}
       </div>
-      <div className="bg-slate-200 w-full h-[40vh] pt-[20vh]">
-        {/* <ClientLogos /> */}
+      <div className="bg-bg2 w-full h-[40vh] pt-[20vh]">
         <div className="pt-[50px] m-auto w-[90%]">
-          <Carousel
-            responsive={responsive2}
-            arrows={false}
-            infinite={true}
-            autoPlay={true}
-          >
-            {dummyClients.map((testimonial, index) => (
-              <div key={index}>
-                <img
-                  src={testimonial.image}
-                  alt=""
-                  className="cursor-pointer h-[80px] w-[180px] object-contain m-auto hover:scale-110 transition-all duration-300 ease-in-out"
-                />
-              </div>
-            ))}
-          </Carousel>
+          <ClientCarouselLogos />
+        </div>
+      </div>
+      <div className="bg-bg2 w-full h-[60vh] py-[5vh]">
+        <div className="w-[90%] h-full m-auto flex flex-row items-start justify-between">
+          <img
+            src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+            alt=""
+            className="h-full w-[45%] object-cover rounded-3xl m-auto"
+          />
+          <div className="flex flex-col w-[55%] h-full items-start justify-between px-8 py-2">
+            <p className="gil-med text-xl">Our Mission</p>
+            <p className="gil-bold text-5xl">
+              Why You Should <br /> Choose{" "}
+              <span className="text-primary">Spotmies</span>
+            </p>
+            <p className="gil-reg text-2xl text-justify opacity-60">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque
+              velit magni eius dolor distinctio esse iusto veniam exercitationem
+              non,Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+            <p className="gil-med text-xl text-primary flex items-center">
+              Our Mission&nbsp; <BsArrowUpRightCircle />{" "}
+            </p>
+          </div>
         </div>
       </div>
     </div>
