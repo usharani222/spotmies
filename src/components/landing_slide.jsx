@@ -10,9 +10,8 @@ import {
 } from "react-icons/ai";
 
 const video =
+  // "https://nftstorage.link/ipfs/bafybeifueea4vkn7eojj4ja7bupwyjca7nrutdqxscj6h3tq7jw7rizgbq";
   "https://nftstorage.link/ipfs/bafybeifueea4vkn7eojj4ja7bupwyjca7nrutdqxscj6h3tq7jw7rizgbq";
-// "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2Fvideo2.mp4?alt=media&token=d11e2881-1e5a-4952-8d65-97fbed0fb6f4";
-// "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/video.mp4?alt=media&token=e5bab7cd-0077-4974-a2b2-88dd82358a02";
 
 const LandingSlide = () => {
   return (
@@ -34,14 +33,21 @@ const LandingSlide = () => {
         muted
         className="absolute top-0 left-0 h-full w-full object-cover z-0"
       />
-      {/* <div className="absolute h-[60vh] bg-black opacity-50 w-[7vw] left-0" /> */}
-      <div className="absolute h-[60vh] w-[7vw] left-0 flex flex-row items-center justify-center">
-        <div className="relative z-10 bg-white rounded-full w-2 h-2 m-2" />
-        <div className="relative z-10 bg-white rounded-full w-2 h-2 m-2" />
-        <div className="relative z-10 bg-white rounded-full w-2 h-2 m-2" />
-        
-
-        <div className="absolute inset-0 bg-black opacity-50 rounded-lg" />
+      <div className="absolute h-[60vh] bg-black opacity-40 w-[7vw] left-0 rounded-sm">
+        <div className="h-full w-full flex flex-col items-center justify-center">
+          {Array(7)
+            .fill(0)
+            .map((_, i) => (
+              <div
+                className="w-full h-10 flex flex-row items-center justify-between p-4 opacity-60"
+                key={i}
+              >
+                <div className="relative z-10 bg-white rounded-full w-1 h-1 m-2" />
+                <div className="relative z-10 bg-white rounded-full w-1 h-1 m-2" />
+                <div className="relative z-10 bg-white rounded-full w-1 h-1 m-2" />
+              </div>
+            ))}
+        </div>
       </div>
 
       <div className="absolute z-10 text-center text-white animated w-[80%]">
@@ -113,15 +119,15 @@ export const Navbarr = () => {
     // navigation bar color change when it's reach to 100vh from top
     window.addEventListener("scroll", () => {
       if (window.pageYOffset > window.innerHeight - 80) {
-        navigationBar.classList.remove("bg-transparent");
-        navigationBar.classList.add("bg-white");
-        navigationBar.classList.add("shadow-md");
-        setToggleNavbar(true);
+        // navigationBar.classList.remove("bg-transparent");
+        navigationBar.classList.add("bg-bg2");
+        navigationBar.classList.add("shadow-sm");
+        // setToggleNavbar(true);
       } else {
-        navigationBar.classList.remove("bg-white");
+        navigationBar.classList.remove("bg-bg2");
         navigationBar.classList.add("bg-transparent");
-        navigationBar.classList.remove("shadow-md");
-        setToggleNavbar(false);
+        navigationBar.classList.remove("shadow-sm");
+        // setToggleNavbar(false);
       }
     });
   }, []);

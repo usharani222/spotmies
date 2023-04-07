@@ -1,0 +1,27 @@
+.client-logos-container {
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  
+  .client-logos {
+    display: inline-block;
+    animation: scroll 20s linear infinite;
+  }
+  
+  .client-logo {
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    margin-right: 20px;
+    display: inline-block;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-120%);
+    }
+  }
+  
