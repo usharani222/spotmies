@@ -68,13 +68,13 @@ export default function AboutUs() {
             alt=""
             className="h-full w-[45%] object-cover rounded-3xl m-auto"
           />
-          <div className="flex flex-col w-[55%] h-full items-start justify-between px-8 py-2">
+          <div className="flex flex-col w-[55%] h-full items-start justify-between px-8 py-2 text-text_color2">
             <p className="gil-med text-xl">Our Mission</p>
-            <p className="gil-bold text-5xl">
+            <p className="gil-bold text-5xl ">
               Why You Should <br /> Choose{" "}
               <span className="text-primary">Spotmies</span>
             </p>
-            <p className="gil-reg text-2xl text-justify opacity-60">
+            <p className="gil-reg text-xl text-justify opacity-60">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque
               velit magni eius dolor distinctio esse iusto veniam exercitationem
               non,Lorem ipsum dolor sit amet, consectetur adipisicing elit.

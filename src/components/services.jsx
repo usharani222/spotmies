@@ -5,7 +5,7 @@ export default function Services() {
   return (
     <div className="w-[100vw] h-[100vh] bg-bg2" id="services">
       <div className="flex flex-col justify-center w-[90%] h-full py-[8%] m-auto">
-        <p className="gil-bold text-6xl text-left pb-12">What We Offer</p>
+        <p className="gil-bold text-6xl text-left pb-12 text-text_color2">What We Offer</p>
         <div className="w-full h-full m-auto flex flex-row items-center justify-center ">
           <div className="flex flex-col items-center justify-center h-full w-[70%]">
             <div className=" w-full h-[60%] bg-red-300 rounded-xl mb-6 relative industry-card">

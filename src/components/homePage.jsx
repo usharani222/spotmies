@@ -2,6 +2,8 @@ import React from "react";
 import LandingSlide from "./landing_slide";
 import AboutUs from "./aboutUs";
 import Services from "./services";
+import Works from "./Work/works";
+import IndustriesSection from "./Work/work2";
 
 export default function HomePage() {
   return (
@@ -9,6 +11,8 @@ export default function HomePage() {
       <LandingSlide />
       <Services />
       <AboutUs />
+      <IndustriesSection />
+      {/* <Works /> */}
     </div>
   );
 }

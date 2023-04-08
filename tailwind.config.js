@@ -16,7 +16,7 @@ module.exports = {
         bg2: "#e2e8f0",
         bg1: "#171717",
         text_color1: "#e2e8f0",
-        text_color2: "#e2e8f0",
+        text_color2: "#171717",
       },
     },
   },
