@@ -20,6 +20,7 @@ export default function HomePage() {
       <ArticlesList />
       {/* <ContactUs /> */}
       <Faq />
+      <ContactUs />
       <FooterBar />
       {/* <Works /> */}
     </div>
