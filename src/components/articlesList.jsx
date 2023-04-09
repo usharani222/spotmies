@@ -39,7 +39,7 @@ const ArticlesList = () => {
   ];
 
   return (
-    <div className="min-h-[50vh] h-fit w-[100vw]" id="articles">
+    <div className="min-h-[50vh] h-fit w-[100vw] bg-bg2" id="articles">
       <div className="py-10 w-full text-black gil-reg">
         <div className="w-[90%] m-auto">
           <div className="flex flex-row justify-between items-center w-full pb-8">

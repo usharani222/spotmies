@@ -8,6 +8,7 @@ import FooterBar from "./footer";
 import AboutCompany from "./aboutCompany";
 import ArticlesList from "./articlesList";
 import ContactUs from "./contactUs";
+import Faq from "./faq";
 
 export default function HomePage() {
   return (
@@ -18,6 +19,7 @@ export default function HomePage() {
       <IndustriesSection />
       <ArticlesList />
       {/* <ContactUs /> */}
+      <Faq />
       <FooterBar />
       {/* <Works /> */}
     </div>

@@ -33,7 +33,7 @@ const LandingSlide = () => {
         muted
         className="absolute top-0 left-0 h-full w-full object-cover z-0"
       />
-      <div className="absolute h-[60vh] bg-black opacity-40 w-[7vw] left-0 rounded-sm">
+      <div className="absolute h-[60vh] bg-bg1 opacity-40 w-[7vw] left-0 rounded-sm">
         <div className="h-full w-full flex flex-col items-center justify-center">
           {Array(7)
             .fill(0)
