@@ -7,6 +7,7 @@ import IndustriesSection from "./Work/work2";
 import FooterBar from "./footer";
 import AboutCompany from "./aboutCompany";
 import ArticlesList from "./articlesList";
+import ContactUs from "./contactUs";
 
 export default function HomePage() {
   return (
@@ -16,7 +17,7 @@ export default function HomePage() {
       <AboutUs />
       <IndustriesSection />
       <ArticlesList />
-
+      {/* <ContactUs /> */}
       <FooterBar />
       {/* <Works /> */}
     </div>

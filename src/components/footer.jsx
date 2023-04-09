@@ -81,7 +81,7 @@ export default function FooterBar() {
                   placeholder="Enter your email"
                 />
                 <button
-                  className="bg-bg1 text-white gil-bold py-2 px-4 rounded border border-bg2 "
+                  className="bg-bg1 text-white gil-bold py-2 px-4 rounded border border-bg2 opacity-60 hover:opacity-100 transition-opacity"
                   type="submit"
                 >
                  <AiOutlineArrowRight className="w-6 h-6" />
