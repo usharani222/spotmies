@@ -1,8 +1,6 @@
 import React from "react";
-import ClientLogos from "./reusableComponent/horizontal_scrolling/client_logo_scrolling";
 import ClientCarouselLogos from "./reusableComponent/horizontal_scrolling/client_carousel";
-import { AiOutlineAlignRight, AiOutlineArrowRight } from "react-icons/ai";
-import { BsArrowUpRight, BsArrowUpRightCircle } from "react-icons/bs";
+import { BsArrowUpRightCircle } from "react-icons/bs";
 
 export default function AboutUs() {
   return (

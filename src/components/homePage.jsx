@@ -4,6 +4,9 @@ import AboutUs from "./aboutUs";
 import Services from "./services";
 import Works from "./Work/works";
 import IndustriesSection from "./Work/work2";
+import FooterBar from "./footer";
+import AboutCompany from "./aboutCompany";
+import ArticlesList from "./articlesList";
 
 export default function HomePage() {
   return (
@@ -12,6 +15,9 @@ export default function HomePage() {
       <Services />
       <AboutUs />
       <IndustriesSection />
+      <ArticlesList />
+
+      <FooterBar />
       {/* <Works /> */}
     </div>
   );

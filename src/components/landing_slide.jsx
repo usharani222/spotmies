@@ -59,17 +59,28 @@ const LandingSlide = () => {
           and customer service to exceed your expectations.
         </p>
         <div className="w-full flex flex-row items-center justify-left z-50 ml-1">
-          <HoverButton
+          {/* <HoverButton
             onClick={() => {
-              // scroll to view by id
+             
               window.document
                 .getElementById("services")
                 .scrollIntoView({ behavior: "smooth" });
             }}
             text="Read More"
-            className="bg-transparent  border hover:text-primary hover:bg-white border-white hover:border-white"
-            // icon={<AiOutlineArrowRight className="ml-2" />}
-          />
+            className=" border-white"
+            
+          /> */}
+          <button
+            onClick={() => {
+              window.document
+                .getElementById("services")
+                .scrollIntoView({ behavior: "smooth" });
+            }}
+            type={"button"}
+            className={`gil-reg text-sm flex flex-row items-center justify-center hover:bg-white hover:text-bg1 rounded-sm min-w-[120px]  min-h-[40px] mt-4 bg-transparent text-white border border-white`}
+          >
+            Read More
+          </button>
         </div>
       </div>
       {/* <div className="absolute z-10 bottom-0 w-[100%] rounded-sm shadow-xl bg-primary opacity-50 h-32">
@@ -119,12 +130,14 @@ export const Navbarr = () => {
     // navigation bar color change when it's reach to 100vh from top
     window.addEventListener("scroll", () => {
       if (window.pageYOffset > window.innerHeight - 80) {
-        // navigationBar.classList.remove("bg-transparent");
-        navigationBar.classList.add("bg-bg2");
+        navigationBar.classList.remove("bg-transparent");
+        navigationBar.classList.add("opacity-90");
+        navigationBar.classList.add("bg-primary2");
         navigationBar.classList.add("shadow-sm");
         // setToggleNavbar(true);
       } else {
-        navigationBar.classList.remove("bg-bg2");
+        navigationBar.classList.remove("bg-primary2");
+        navigationBar.classList.remove("opacity-90");
         navigationBar.classList.add("bg-transparent");
         navigationBar.classList.remove("shadow-sm");
         // setToggleNavbar(false);
