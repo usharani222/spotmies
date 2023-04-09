@@ -9,7 +9,7 @@ export default function FooterBar() {
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap justify-between mb-12">
             <div className="w-full md:w-1/3 lg:w-1/3 pr-4">
-              <img src="/spotmies_banner.png" alt="logo" className="w-32 mb-4" />
+              <img src="/spotmies_banner.png" alt="logo" className="w-40 mb-4" />
               {/* <h2 className="text-lg gil-bold mb-4">About Us</h2> */}
               <p className="mb-4 text-justify">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio,
@@ -81,7 +81,7 @@ export default function FooterBar() {
                   placeholder="Enter your email"
                 />
                 <button
-                  className="bg-bg1 text-white gil-bold py-2 px-4 rounded border border-bg2 opacity-60 hover:opacity-100 transition-opacity"
+                  className="bg-bg1 text-white gil-bold py-2 px-4 rounded border-2 border-gray-700 opacity-60 hover:opacity-100 transition-opacity"
                   type="submit"
                 >
                  <AiOutlineArrowRight className="w-6 h-6" />
