@@ -57,6 +57,12 @@ const IndustriesSection = () => {
                         size="2rem"
                         color="white"
                         className="cursor-pointer"
+                        onClick={() => {
+                          if (industry?.completed) {
+                            return window.open(industry?.projectLink, "_blank");
+                          }
+                          alert("Project is not completed yet");
+                        }}
                       />
                     </div>
                   </div>

@@ -63,7 +63,7 @@ export default function ContactUs() {
             >
               <div className="flex flex-col items-start w-[90%] md:w-[90%]">
                 <p className="gil-reg text-2xl text-primary2">
-                  GET IN <span className="gil-bold">TOUCH</span>
+                  Take A Coffee & <span className="gil-bold">Chat</span> With Us
                 </p>
                 <p className="opacity-30 text-sm text-primary2">
                   24/7 We will answer your questions & problems

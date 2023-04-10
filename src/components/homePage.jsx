@@ -15,8 +15,9 @@ export default function HomePage() {
     <div className="bg-slate-100 gil-reg">
       <LandingSlide />
       <Services />
-      <AboutUs />
       <IndustriesSection />
+      <AboutUs />
+      
       <ArticlesList />
       {/* <ContactUs /> */}
       <Faq />

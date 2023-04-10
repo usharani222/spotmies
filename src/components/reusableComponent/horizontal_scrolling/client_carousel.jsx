@@ -2,7 +2,7 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import { dummyClients } from "@/constants";
+import { clients } from "@/constants";
 
 export default function ClientCarouselLogos() {
   const responsive2 = {
@@ -36,7 +36,7 @@ export default function ClientCarouselLogos() {
         infinite={true}
         autoPlay={true}
       >
-        {dummyClients.map((testimonial, index) => (
+        {clients.map((testimonial, index) => (
           <div key={index}>
             <img
               src={testimonial.image}
