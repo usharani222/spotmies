@@ -47,7 +47,7 @@ export default function AboutUs() {
         </div>
         <div className="relative group w-full h-[50vh] md:h-[70vh] rounded-3xl overflow-hidden mt-[5vh] md:mt-[10vh]">
           <div
-            className=" h-full w-full object-cover rounded-3xl  group-hover:scale-110  transition-all duration-300 ease-in-out"
+            className=" h-full w-full object-cover rounded-3xl  group-hover:scale-110  transition-all duration-700 ease-in-out"
             style={{
               backgroundImage: `url(https://images.unsplash.com/photo-1543269865-cbf427effbad?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80)`,
 
@@ -70,7 +70,7 @@ export default function AboutUs() {
             <img
               src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
               alt=""
-              className="w-full h-full object-cover rounded-xl md:rounded-3xl m-auto group-hover:scale-110 transition-all duration-300 ease-in-out"
+              className="w-full h-full object-cover rounded-xl md:rounded-3xl m-auto group-hover:scale-110 transition-all duration-700 ease-in-out"
             />
           </div>
           <div className="flex flex-col w-full md:w-[55%] h-[40%] md:h-full items-start justify-between px-2 md:px-8 py-2 text-text_color2">

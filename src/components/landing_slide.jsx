@@ -223,7 +223,7 @@ export const Navbarr = () => {
       <div
         className={`${
           isOpen ? "" : "hidden"
-        } md:hidden bg-white transition-all duration-500 ease-in-out`}
+        } md:hidden bg-white transition-all duration-700 ease-in-out`}
       >
         <a
           onClick={() => navigation("services")}
