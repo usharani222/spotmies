@@ -1,5 +1,5 @@
 import React from "react";
-import { BsArrowRight } from "react-icons/bs";
+import { BsArrowRight, BsArrowUpRightCircle } from "react-icons/bs";
 
 export default function TeamSlide() {
   return (
@@ -42,7 +42,7 @@ export default function TeamSlide() {
           </div>
           <div className="flex flex-col items-center justify-between h-full ml-0 md:ml-6 w-full md:w-[40%]">
             {/* this div contains 2 div, 1st one is 40% 2nd one is 60% heights respectively */}
-            <div className="flex flex-col items-center justify-center w-full h-[40%] rounded-xl mb-2 md:mb-0 industry-card relative">
+            <div className="flex flex-col items-start justify-center w-full h-[45%] rounded-xl mb-2 md:mb-0 industry-card relative">
               {/* add content here
                */}
               <p className="text-5xl gil-bold ">
@@ -58,8 +58,11 @@ export default function TeamSlide() {
                 foundation of our company, and we take every measure to ensure
                 our development process is of the highest quality.
               </p>
+              <p className="gil-med text-sm md:text-md text-primary flex items-center cursor-pointer pt-2">
+                Learn More&nbsp; <BsArrowUpRightCircle />{" "}
+              </p>
             </div>
-            <div className="group overflow-hidden flex flex-col items-center justify-center w-full h-[60%] bg-pink-100 rounded-xl industry-card relative">
+            <div className="group overflow-hidden flex flex-col items-center justify-center w-full h-[55%] bg-pink-100 rounded-xl industry-card relative">
               {dataInsideDiv({
                 title: "Mobile Development",
                 description:
