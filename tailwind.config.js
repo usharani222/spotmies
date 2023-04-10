@@ -16,6 +16,7 @@ module.exports = {
         primary2: "#171717",
         bg2: "#f1f1f1",
         bg1: "#171717",
+        bg3: "#ffffff",
         text_color1: "#f1f1f1",
         text_color2: "#171717",
       },

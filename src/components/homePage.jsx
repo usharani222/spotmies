@@ -9,6 +9,7 @@ import AboutCompany from "./aboutCompany";
 import ArticlesList from "./articlesList";
 import ContactUs from "./contactUs";
 import Faq from "./faq";
+import TeamSlide from "./team";
 
 export default function HomePage() {
   return (
@@ -17,7 +18,8 @@ export default function HomePage() {
       <Services />
       <IndustriesSection />
       <AboutUs />
-      
+      <TeamSlide />
+
       <ArticlesList />
       {/* <ContactUs /> */}
       <Faq />
