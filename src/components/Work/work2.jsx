@@ -34,7 +34,7 @@ const IndustriesSection = () => {
                 className="w-full sm:w-1/2 lg:w-1/2 p-6 flex flex-col"
               >
                 <div className="flex-2 bg-white overflow-hidden shadow-sm rounded-lg hover:shadow-md relative industry-card">
-                  <div className="absolute inset-0 bg-bg1 opacity-20 hover:opacity-70 opacity-layer"></div>
+                  <div className="absolute inset-0 bg-bg1 opacity-20 hover:opacity-90 opacity-layer"></div>
                   <div className="absolute inset-0 w-full h-full p-6 flex flex-col">
                     <p className="text-white gil-med text-4xl onHoverShow">
                       {industry?.title}
@@ -85,12 +85,12 @@ const IndustriesSection = () => {
           )}
         </div>
       </section>
-      <section className="bg-white py-12 px-4 sm:px-8 lg:px-16 xl:px-32 md:hidden block">
+      <section className="bg-white py-12 px-1 md:px-4 sm:px-8 lg:px-16 xl:px-32 md:hidden block">
         <div className="max-w-screen-lg mx-auto">
-          <h2 className="text-4xl sm:text-5xl gil-bold text-text_color2 mb-8 ml-4">
+          <h2 className="text-4xl sm:text-5xl gil-bold text-text_color2 mb-4 ml-4">
             Our portfolio works
           </h2>
-          <p className="text-text_color2 opacity-60 text-justify ml-4 md:ml-0 md:w-2/3">
+          <p className="text-text_color2 text-sm opacity-60 text-justify mx-4 md:ml-0 md:w-2/3">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
             voluptas, quod, quia, voluptate quae voluptates quibusdam
             voluptatibus quos quas quidem quia voluptates quibusdam
@@ -105,10 +105,10 @@ const IndustriesSection = () => {
                 <div className="flex-2 bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md relative industry-card">
                   <div className="absolute inset-0 bg-bg1 opacity-20 hover:opacity-70 opacity-layer"></div>
                   <div className="absolute inset-0 w-full h-full p-6 flex flex-col">
-                    <p className="text-white gil-med text-3xl sm:text-4xl">
+                    <p className="text-white gil-med text-2xl sm:text-4xl onHoverShow">
                       {industry.title}
                     </p>
-                    <p className="opacity-70 text-white text-sm onHoverShow text-justify pt-4">
+                    <p className="opacity-70 text-white text-xs onHoverShow text-justify">
                       {industry.description}
                     </p>
                     {/* <div className="flex flex-row items-center justify-between w-full absolute bottom-4 right-4"> */}

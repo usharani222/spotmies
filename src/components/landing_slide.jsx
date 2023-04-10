@@ -33,13 +33,13 @@ const LandingSlide = () => {
         muted
         className="absolute top-0 left-0 h-full w-full object-cover z-0"
       />
-      <div className="absolute h-[60vh] bg-bg1 opacity-40 w-[7vw] left-0 rounded-sm">
+      <div className="absolute h-[50vh] md:h-[60vh] bg-bg1 opacity-40 w-[10vw] md:w-[7vw] left-0 rounded-sm">
         <div className="h-full w-full flex flex-col items-center justify-center">
           {Array(7)
             .fill(0)
             .map((_, i) => (
               <div
-                className="w-full h-10 flex flex-row items-center justify-between p-4 opacity-60"
+                className="w-full h-10 flex  items-center justify-between p-4 opacity-60"
                 key={i}
               >
                 <div className="relative z-10 bg-white rounded-full w-1 h-1 m-2" />
@@ -50,11 +50,11 @@ const LandingSlide = () => {
         </div>
       </div>
 
-      <div className="absolute z-10 text-center text-white animated w-[80%]">
-        <h1 className="text-3xl md:text-4xl lg:text-6xl gil-bold mb-4 text-left w-[70%] opacity-85">
+      <div className="absolute z-10 text-center text-white animated w-[70%]">
+        <h1 className="text-3xl md:text-4xl lg:text-6xl gil-bold mb-4 text-left w-full md:w-[70%] opacity-85">
           Innovative solutions to stay ahead of the competition
         </h1>
-        <p className="text-sm md:text-lg lg:text-md mb-8 text-left opacity-70 w-[60%]">
+        <p className="text-sm md:text-lg lg:text-md mb-8 text-left opacity-70 w-full md:w-[60%]">
           Professional services that deliver exceptional quality, reliability,
           and customer service to exceed your expectations.
         </p>
@@ -152,7 +152,7 @@ export const Navbarr = () => {
           <img
             src={toggleNavbar ? "/spotmies_banner.png" : "/spotmies_banner.png"}
             alt="Logo"
-            className="h-10 cursor-pointer"
+            className=" h-6 md:h-10 cursor-pointer"
           />
         </div>
         <div className="flex items-center">
@@ -185,22 +185,7 @@ export const Navbarr = () => {
           >
             Services
           </a>
-          {/* <a
-            onClick={() => navigation("industries")}
-            className={`${
-              toggleNavbar ? "text-primary" : "text-white"
-            }  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer`}
-          >
-            Industries
-          </a> */}
-          {/* <a
-            onClick={() => navigation("career")}
-            className={`${
-              toggleNavbar ? "text-primary" : "text-white"
-            }  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer`}
-          >
-            Career
-          </a> */}
+
           <a
             onClick={() => navigation("aboutUs")}
             className={`${
@@ -242,37 +227,26 @@ export const Navbarr = () => {
       >
         <a
           onClick={() => navigation("services")}
-          className="block px-4 py-2 text-primary border-b-2 border-transparent hover:border-secundary cursor-pointer"
+          className="block px-4 py-2 text-primary2 border-b-2 border-transparent hover:border-secundary cursor-pointer"
         >
           Services
         </a>
-        <a
-          onClick={() => navigation("industries")}
-          className="block px-4 py-2 text-primary border-b-2 border-transparent hover:border-secundary cursor-pointer"
-        >
-          Industries
-        </a>
-        <a
-          onClick={() => navigation("career")}
-          className="block px-4 py-2 text-primary border-b-2 border-transparent hover:border-secundary cursor-pointer"
-        >
-          Career
-        </a>
+
         <a
           onClick={() => navigation("articles")}
-          className="block px-4 py-2 text-primary border-b-2 border-transparent hover:border-secundary cursor-pointer"
+          className="block px-4 py-2 text-primary2 border-b-2 border-transparent hover:border-secundary cursor-pointer"
         >
           Blogs
         </a>
         <a
           onClick={() => navigation("aboutUs")}
-          className="block px-4 py-2 text-primary border-b-2 border-transparent hover:border-secundary cursor-pointer"
+          className="block px-4 py-2 text-primary2 border-b-2 border-transparent hover:border-secundary cursor-pointer"
         >
           About Us
         </a>
         <a
           onClick={() => navigation("contactUs")}
-          className="block px-4 py-2 text-primary border-b-2 border-transparent hover:border-secundary cursor-pointer"
+          className="block px-4 py-2 text-primary2 border-b-2 border-transparent hover:border-secundary cursor-pointer"
         >
           Contact Us
         </a>

@@ -47,12 +47,12 @@ const ArticlesList = () => {
               Follow the latest articles & news
             </p>
 
-            <div className="flex flex-row items-center">
+            {/* <div className="flex flex-row items-center">
               <BsArrowLeftCircle className="inline-block text-3xl mr-2 text-primary2 cursor-pointer" />
               <BsArrowRightCircleFill className="inline-block text-3xl text-primary2 cursor-pointer" />
-            </div>
+            </div> */}
           </div>
-          <p className="w-[70%] pb-5">
+          <p className="w-full md:w-[70%] pb-5 opacity-60 text-sm md:text-xl">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni
             aliquid asperiores reprehenderit tempore laboriosam, sunt sapiente
             optio, quos aspernatur esse voluptates doloribus ullam delectus.
@@ -62,7 +62,7 @@ const ArticlesList = () => {
             {article.map((item, index) => (
               <div
                 key={index}
-                className="text-primary2 bg-white flex flex-col items-start justify-between h-[430px] w-full md:w-[400px] rounded-lg shadow-sm  p-3 md:m-0 m-2"
+                className="text-primary2 bg-white flex flex-col items-start justify-between h-fit md:h-[430px] w-full md:w-[400px] rounded-lg shadow-sm  p-3 md:m-0 m-2"
               >
                 <img
                   src={item.image}
