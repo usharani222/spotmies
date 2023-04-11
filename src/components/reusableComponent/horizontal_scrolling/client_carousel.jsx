@@ -2,7 +2,7 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import { dummyClients } from "@/constants";
+import { clients } from "@/constants";
 
 export default function ClientCarouselLogos() {
   const responsive2 = {
@@ -19,12 +19,12 @@ export default function ClientCarouselLogos() {
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
-      items: 1,
+      items: 3,
       partialVisibilityGutter: 0,
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
-      items: 1,
+      items: 3,
       partialVisibilityGutter: 0,
     },
   };
@@ -36,12 +36,12 @@ export default function ClientCarouselLogos() {
         infinite={true}
         autoPlay={true}
       >
-        {dummyClients.map((testimonial, index) => (
+        {clients.map((testimonial, index) => (
           <div key={index}>
             <img
               src={testimonial.image}
               alt=""
-              className="cursor-pointer h-[80px] w-[180px] object-contain m-auto hover:scale-110 transition-all duration-300 ease-in-out"
+              className="cursor-pointer h-[40px] w-[90px] md:h-[80px] md:w-[180px] object-contain m-auto hover:scale-110 transition-all duration-700 ease-in-out"
             />
           </div>
         ))}

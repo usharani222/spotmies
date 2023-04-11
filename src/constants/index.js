@@ -290,6 +290,18 @@ export const primaryColor = "#142440";
 
 export const clients = [
   {
+    name: "Schemax",
+    image:
+      "https://nftstorage.link/ipfs/bafkreiagazvd7eytwc6juxlcuei7uxyasrfoygaodpdrc42wydmhzu232m",
+    link: "https://www.schemaxtech.com",
+  },
+  {
+    name: "Decentrialz",
+    image:
+      "https://nftstorage.link/ipfs/bafkreigw3wq7a3euqslspjyxlgm73455u4s4ggvj5yyb7et3fjnl43oaba",
+    link: "https://decentrialz.com",
+  },
+  {
     name: "Sweken",
     image:
       "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2Flogo-final.png?alt=media&token=096b08ad-a9ec-461d-b336-69bfa0475e3e",
@@ -319,4 +331,8 @@ export const clients = [
       "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2FAsset-3.png?alt=media&token=f9fc70f8-46bb-4dfa-b8c8-34c28a10e6a5",
     link: "https://advaitlabs.com",
   },
+  {
+    name: "AU Incubation Centre",
+    image: "https://nftstorage.link/ipfs/bafkreihmcoka42rypwkf7wmbhl3dvj57p2dtmta435egcgtychdflzvxki",
+  }
 ];
