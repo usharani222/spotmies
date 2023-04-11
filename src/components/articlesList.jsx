@@ -62,7 +62,7 @@ const ArticlesList = () => {
             {article.map((item, index) => (
               <div
                 key={index}
-                className="text-primary2 bg-white flex flex-col items-start justify-between h-fit md:h-[430px] w-full md:w-[400px] rounded-lg shadow-sm  p-3 md:m-0 m-2"
+                className="text-primary2 bg-white flex flex-col items-start justify-between h-fit md:h-[430px] w-full md:w-[400px] rounded-2xl shadow-sm  p-3 md:m-0 m-2"
               >
                 <img
                   src={item.image}
@@ -86,8 +86,8 @@ const ArticlesList = () => {
                       window.open(item.link, "_blank");
                     }}
                   >
-                    <p className="gil-bold text-sm text-primary2">KNOW MORE</p>
-                    <BsArrowUpRightCircleFill className="inline-block text-md ml-2 text-primary2" />
+                    <p className="gil-bold text-sm text-primary">KNOW MORE</p>
+                    <BsArrowUpRightCircleFill className="inline-block text-md ml-2 text-primary" />
                   </div>
                 </div>
               </div>

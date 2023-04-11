@@ -10,6 +10,7 @@ import ArticlesList from "./articlesList";
 import ContactUs from "./contactUs";
 import Faq from "./faq";
 import TeamSlide from "./team";
+import TeamSlide2 from "./team2";
 
 export default function HomePage() {
   return (
@@ -19,6 +20,7 @@ export default function HomePage() {
       <IndustriesSection />
       <AboutUs />
       <TeamSlide />
+      <TeamSlide2 />
 
       <ArticlesList />
       {/* <ContactUs /> */}

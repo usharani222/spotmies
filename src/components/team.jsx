@@ -42,7 +42,7 @@ export default function TeamSlide() {
           </div>
           <div className="flex flex-col items-center justify-between h-full ml-0 md:ml-6 w-full md:w-[40%]">
             {/* this div contains 2 div, 1st one is 40% 2nd one is 60% heights respectively */}
-            <div className="flex flex-col items-start justify-center w-full h-[45%] rounded-xl mb-2 md:mb-0 industry-card relative">
+            <div className="text-primary2 flex flex-col items-start justify-center w-full h-[45%] rounded-xl mb-2 md:mb-0 industry-card relative">
               {/* add content here
                */}
               <p className="text-5xl gil-bold ">
