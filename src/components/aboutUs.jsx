@@ -82,15 +82,15 @@ export default function AboutUs() {
       </div>
       <div className="bg-bg2 w-full h-[100vh] md:h-[60vh] py-[2vh] md:py-[5vh]">
         <div className="w-[90%] h-full m-auto flex flex-col-reverse md:flex-row items-start justify-between">
-          <div className="group overflow-hidden h-[50%] md:h-full w-full md:w-[45%] rounded-xl md:rounded-3xl">
-            <Fade>
+          <Fade>
+            <div className="group overflow-hidden h-[50%] md:h-full w-full md:w-[45%] rounded-xl md:rounded-3xl">
               <img
                 src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
                 alt=""
                 className="w-full h-full object-cover rounded-xl md:rounded-3xl m-auto group-hover:scale-110 transition-all duration-700 ease-in-out"
               />
-            </Fade>
-          </div>
+            </div>
+          </Fade>
           <div className="flex flex-col w-full md:w-[55%] h-[40%] md:h-full items-start justify-between px-2 md:px-8 py-2 text-text_color2">
             <Fade bottom>
               {" "}
