@@ -154,6 +154,16 @@ a {
   transform: translateY(0);
   transition: all 0.3s ease-in-out;
 }
+.industry-card:hover .opacity-layer2 {
+  opacity: 0.8;
+  transform: translateY(0);
+  transition: all 0.3s ease-in-out;
+}
+.opacity-layer2 {
+  opacity: 0;
+  transform: translateY(0);
+  transition: all 0.3s ease-in-out;
+}
 
 @media (prefers-color-scheme: dark) {
   html {

@@ -40,7 +40,7 @@ const PortfolioSection = () => {
               >
                 <Fade bottom>
                   <div className="flex-2 bg-white overflow-hidden shadow-sm rounded-2xl hover:shadow-md relative industry-card">
-                    <div className="absolute inset-0 bg-bg1 opacity-20 hover:opacity-90 opacity-layer"></div>
+                    <div className="absolute inset-0 bg-bg1 opacity-20 hover:opacity-90 opacity-layer2"></div>
                     <div className="absolute inset-0 w-full h-full p-6 flex flex-col">
                       <p className="text-white gil-med text-4xl onHoverShow">
                         {industry?.title}
