@@ -19,7 +19,7 @@ export default function Services() {
                 {dataInsideDiv({
                   title: "Product Design",
                   description:
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "It creates an enjoyable and intuitive experience for Your users. It allows users to easily interact with a product or service.",
                   image:
                     "https://images.unsplash.com/photo-1606161290889-77950cfb67d3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80",
                 })}
@@ -32,7 +32,7 @@ export default function Services() {
                   {dataInsideDiv({
                     title: "Web Development",
                     description:
-                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                      "We build web apps that are fast, secure, and scalable with the help of the latest technologies like React, Node, MongoDB And Next.js.",
                     image:
                       "https://images.unsplash.com/photo-1508921340878-ba53e1f016ec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80",
                   })}
@@ -43,7 +43,7 @@ export default function Services() {
                   {dataInsideDiv({
                     title: "Blockchain & Web3",
                     description:
-                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                      "Blockchain services are becoming increasingly important in many industries, as they provide a secure, transparent, and immutable platform on which to store data and execute transactions.",
                     image:
                       "https://images.unsplash.com/photo-1639152446002-ffd04bd3d529?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2232&q=80",
                   })}
