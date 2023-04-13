@@ -90,7 +90,7 @@ const PortfolioSection = () => {
           </div>
           {filterWork.length !== worksJson.length && (
             <div className="w-full flex flex-row items-center justify-center">
-              <HoverButton text={"Show More"} onClick={showMore} />
+              <HoverButton text={"Show More"} onClick={showMore} className="rounded-xl" />
             </div>
           )}
         </div>

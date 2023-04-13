@@ -9,7 +9,7 @@ export default function TeamSlide() {
       <div className="flex flex-col justify-center w-[90%] h-full py-[8%] m-auto">
         <Fade bottom>
           <p className="gil-bold text-3xl md:text-6xl text-left pb-12 text-text_color2">
-            Meet Our Core Team
+            Meet Our Team
           </p>
         </Fade>
         <div className="w-full h-full m-auto flex flex-col md:flex-row items-center justify-center ">
