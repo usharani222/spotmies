@@ -124,7 +124,7 @@ export default function TeamSlide2() {
   };
 
   return (
-    <div className="w-[100vw] h-fit py-2 bg-white flex flex-col items-start justify-start">
+    <div className="w-[100vw] h-fit pb-6 bg-white flex flex-col items-start justify-start">
       <div className="w-[90%] h-[380px] m-auto">
         <Carousel
           responsive={responsive}
@@ -141,7 +141,7 @@ export default function TeamSlide2() {
   );
 }
 
-const TeamCard = ({ image, name, designation }) => {
+export const TeamCard = ({ image, name, designation }) => {
   return (
     <div className="group  w-[300px] h-[370px] rounded-lg overflow-hidden shadow-md m-2 relative industry-card">
       <img

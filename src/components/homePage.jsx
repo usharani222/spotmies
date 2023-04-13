@@ -11,6 +11,7 @@ import Faq from "./faq";
 import TeamSlide from "./team";
 import TeamSlide2 from "./team2";
 import PortfolioSection from "./Work/work2";
+import Mentors from "./mentors";
 
 export default function HomePage() {
   return (
@@ -21,6 +22,7 @@ export default function HomePage() {
       <AboutUs />
       <TeamSlide />
       <TeamSlide2 />
+      <Mentors />
 
       <ArticlesList />
       {/* <ContactUs /> */}
