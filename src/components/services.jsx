@@ -56,7 +56,7 @@ export default function Services() {
             <Fade>
               <div className="flex flex-col items-center justify-center w-full h-[30%] bg-yellow-100 rounded-xl mb-2 md:mb-6 industry-card relative">
                 {dataInsideDiv({
-                  title: "Desktop Development",
+                  title: "Windows & Mac",
                   description:
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
                   image:
@@ -67,7 +67,7 @@ export default function Services() {
             <Fade>
               <div className="flex flex-col items-center justify-center w-full h-[70%] bg-pink-100 rounded-xl industry-card relative">
                 {dataInsideDiv({
-                  title: "Mobile Development",
+                  title: "Android & IOS",
                   description:
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
                   image:

@@ -187,7 +187,7 @@ export const Navbarr = () => {
           </a>
 
           <a
-            onClick={() => navigation("aboutUs")}
+            onClick={() => navigation("about")}
             className={`${
               toggleNavbar ? "text-primary" : "text-white"
             }  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer`}

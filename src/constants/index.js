@@ -316,7 +316,7 @@ export const clients = [
   {
     name: "A Square Entertainment",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2Fgokart_logo_large.png?alt=media&token=f52684c2-bcf0-4b25-ad6c-3e5fee041e97",
+      "https://nftstorage.link/ipfs/bafkreigevdst43q3nm2hx4jixt7uilgst42ftpkde6z66npqhejuwczrzu",
     link: "https://asquaregokarting.com",
   },
   {
@@ -328,11 +328,22 @@ export const clients = [
   {
     name: "Advait Labs",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2FAsset-3.png?alt=media&token=f9fc70f8-46bb-4dfa-b8c8-34c28a10e6a5",
+      "https://nftstorage.link/ipfs/bafkreifkmgwbrrfgkjz42h65y6ezbxaqq7oytl43c55g4e7h6mffuepvze",
     link: "https://advaitlabs.com",
   },
   {
     name: "AU Incubation Centre",
-    image: "https://nftstorage.link/ipfs/bafkreihmcoka42rypwkf7wmbhl3dvj57p2dtmta435egcgtychdflzvxki",
-  }
+    image:
+      "https://nftstorage.link/ipfs/bafkreif5qsqudolt33droztjm6gwdxynikfdfyvbe7zxr3objzgs7tfkse",
+  },
+  {
+    name: "Chalo Ride",
+    image:
+      "https://nftstorage.link/ipfs/bafkreicvtovsbo4c4jc2x536w33vjy5xkbnnkrchhwraedqxisf4tcvepq",
+  },
+  {
+    name: "Mr Bikes",
+    image:
+      "https://nftstorage.link/ipfs/bafybeia4pjv3msjwzsssqvxdldpg6nipi4dxzcsgdrqwdfnncgstudmif4",
+  },
 ];

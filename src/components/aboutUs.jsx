@@ -3,10 +3,11 @@ import React from "react";
 import ClientCarouselLogos from "./reusableComponent/horizontal_scrolling/client_carousel";
 import { BsArrowUpRightCircle } from "react-icons/bs";
 import { Fade } from "react-reveal";
+import CountUp from "react-countup";
 
 export default function AboutUs() {
   return (
-    <div className="w-[100vw] h-fit min-h-[50vh] md:min-h-[100vh] bg-neutral-900">
+    <div className="w-[100vw] h-fit min-h-[50vh] md:min-h-[100vh] bg-neutral-900" id="about">
       <div className="w-[90%] h-[90vh] m-auto py-12">
         <div className="flex flex-col md:flex-row w-full items-start justify-between h-fit md:h-[30%]">
           <div className="flex flex-col items-start justify-center w-fit h-full text-text_color1">
@@ -43,16 +44,25 @@ export default function AboutUs() {
             </Fade>
             <div className="flex flex-row w-full items-center justify-between pt-[5%]">
               <div className="flex flex-col items-center justify-center">
-                <p className="gil-med text-3xl">100+</p>
+                <p className="gil-med text-3xl">
+                  <CountUp enableScrollSpy={true} end={30} />
+                  <span className="md:mb-[15px] mb-[8px]">+</span>
+                </p>
                 <p className="gil-reg text-md">Projects</p>
               </div>
               <div className="flex flex-col items-center justify-center">
-                <p className="gil-med text-3xl">100+</p>
-                <p className="gil-reg text-md">Projects</p>
+                <p className="gil-med text-3xl">
+                  <CountUp enableScrollSpy={true} end={5} />
+                  <span className="md:mb-[15px] mb-[8px]">+</span>
+                </p>
+                <p className="gil-reg text-md">Blockchain Projects</p>
               </div>
               <div className="flex flex-col items-center justify-center">
-                <p className="gil-med text-3xl">100+</p>
-                <p className="gil-reg text-md">Projects</p>
+                <p className="gil-med text-3xl">
+                  <CountUp enableScrollSpy={true} end={20} />
+                  <span className="md:mb-[15px] mb-[8px]">+</span>
+                </p>
+                <p className="gil-reg text-md">Happy Clients</p>
               </div>
             </div>
           </div>
