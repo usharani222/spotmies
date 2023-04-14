@@ -12,24 +12,26 @@ import TeamSlide from "./team";
 import TeamSlide2 from "./team2";
 import PortfolioSection from "./Work/work2";
 import Mentors from "./mentors";
+import Testimonials from "./testimonials";
 
 export default function HomePage() {
   return (
     <div className="bg-slate-100 gil-reg">
       <LandingSlide />
       <Services />
-      <PortfolioSection />
+
       <AboutUs />
+      <PortfolioSection />
+      <Testimonials />
       <TeamSlide />
       <TeamSlide2 />
-      <Mentors />
+      {/* <Mentors /> */}
 
       <ArticlesList />
-      {/* <ContactUs /> */}
+
       <Faq />
       <ContactUs />
       <FooterBar />
-      {/* <Works /> */}
     </div>
   );
 }
