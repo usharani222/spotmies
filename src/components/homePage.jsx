@@ -13,6 +13,7 @@ import TeamSlide2 from "./team2";
 import PortfolioSection from "./Work/work2";
 import Mentors from "./mentors";
 import Testimonials from "./testimonials";
+import DesignSlide from "./designSlide";
 
 export default function HomePage() {
   return (
@@ -22,6 +23,7 @@ export default function HomePage() {
 
       <AboutUs />
       <PortfolioSection />
+      <DesignSlide />
       <Testimonials />
       <TeamSlide />
       <TeamSlide2 />
