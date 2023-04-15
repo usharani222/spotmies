@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import { Fade } from "react-reveal";
 // import HoverButton from "./reusableComponent/hoverButton";
 
 export default function DesignSlide() {
@@ -18,9 +19,11 @@ export default function DesignSlide() {
       {/* // add background layer  */}
       <div className="absolute inset-0 w-full h-full bg-bg1 opacity-30"></div>
       <div className="absolute top-0 flex flex-row w-full items-start justify-start pl-[5vw]">
-        <p className=" text-text_color1 text-6xl gil-bold text-center pt-10 z-50">
-          Look At Our designs
-        </p>
+        <Fade bottom>
+          <p className=" text-text_color1 text-4xl md:text-6xl gil-bold text-center pt-10 z-50">
+            Look At Our designs
+          </p>
+        </Fade>
       </div>
 
       <div className="absolute bottom-3 flex flex-row w-full items-center justify-center">

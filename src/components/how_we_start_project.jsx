@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import {
   AiOutlineAntDesign,
@@ -7,14 +8,17 @@ import {
   AiOutlineBuild,
   AiOutlineFileSearch,
 } from "react-icons/ai";
+import { Fade } from "react-reveal";
 
 export default function HowWeStart() {
   return (
     <div className="w-[100vw h-fit md:h-[50vh] bg-bg1 py-[5vh]">
       <div className="m-auto w-[90%] h-full flex flex-col">
-        <p className="text-6xl text-left text-text_color1 gil-bold">
-          How We Start
-        </p>
+        <Fade bottom>
+          <p className="text-4xl md:text-6xl text-left text-text_color1 gil-bold">
+            How we get into the <span className="text-primary">project</span>
+          </p>
+        </Fade>
         <br />
         <div className="flex flex-col md:flex-row items-center justify-between w-full">
           {blockComp(
@@ -44,16 +48,24 @@ export default function HowWeStart() {
       <>
         {" "}
         <div className="hidden w-[90%] md:w-[30%] md:flex flex-row md:flex-col items-start justify-start">
-          {iconn}
+          <Fade bottom>{iconn}</Fade>
 
-          <p className="text-text_color1 text-2xl opacity-80">{title}</p>
-          <p className="text-text_color1 text-md opacity-50">{desc}</p>
+          <Fade bottom>
+            <p className="text-text_color1 text-2xl opacity-80">{title}</p>
+          </Fade>
+          <Fade bottom>
+            <p className="text-text_color1 text-md opacity-50">{desc}</p>
+          </Fade>
         </div>
         <div className="w-[95%] md:hidden my-2 flex flex-row items-start justify-between">
-          {iconn}
+          <Fade bottom>{iconn}</Fade>
           <div className="flex flex-col w-[80%] pl-4 items-start justify-start">
-            <p className="text-text_color1 text-2xl opacity-80">{title}</p>
-            <p className="text-text_color1 text-md opacity-50">{desc}</p>
+            <Fade bottom>
+              <p className="text-text_color1 text-2xl opacity-80">{title}</p>
+            </Fade>
+            <Fade bottom>
+              <p className="text-text_color1 text-md opacity-50">{desc}</p>
+            </Fade>
           </div>
         </div>
       </>

@@ -30,7 +30,7 @@ export default function Testimonials() {
   };
 
   return (
-    <Wrapper title={"What our client say's about us"} className="bg-bg2">
+    <Wrapper title={"What our client say's about us"} className="bg-bg2 min-h-fit">
       <div className="flex flex-wrap w-[100%] items-center justify-center"></div>
       <Carousel responsive={responsive} partialVisible={true}>
         {testimonials.map((testimonial, index) =>

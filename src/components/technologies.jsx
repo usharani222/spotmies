@@ -22,23 +22,23 @@ export default function TechSlide() {
 
         <div className="mt-10">
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
-            <div className="relative flex flex-row justify-evenly items-center px-6 py-6 bg-bg2 rounded-lg shadow-md">
+            <div className="relative flex flex-row justify-evenly items-center px-6 py-6 bg-bg2 rounded-lg">
               <FaReact className="w-8 h-8 text-[#61DAFB]" />
               <h3 className="text-lg font-medium text-gray-900">React JS</h3>
             </div>
-            <div className="relative flex justify-evenly items-center px-6 py-6 bg-bg2 rounded-lg shadow-md">
+            <div className="relative flex justify-evenly items-center px-6 py-6 bg-bg2 rounded-lg">
               <FaNodeJs className="w-8 h-8 text-[#68A063]" />
               <h3 className="text-lg font-medium text-gray-900">Node.js</h3>
             </div>
-            <div className="relative flex justify-evenly items-center px-6 py-6 bg-bg2 rounded-lg shadow-md">
+            <div className="relative flex justify-evenly items-center px-6 py-6 bg-bg2 rounded-lg">
               <SiMongodb className="w-8 h-8 text-[#13AA52]" />
               <h3 className="text-lg font-medium text-gray-900">MongoDB</h3>
             </div>
-            <div className="relative flex justify-evenly items-center px-6 py-6 bg-bg2 rounded-lg shadow-md">
+            <div className="relative flex justify-evenly items-center px-6 py-6 bg-bg2 rounded-lg">
               <SiFlutter className="w-8 h-8 text-[#0075c2]" />
               <h3 className="text-lg font-medium text-gray-900">Flutter</h3>
             </div>
-            <div className="relative flex justify-evenly items-center px-6 py-6 bg-bg2 rounded-lg shadow-md">
+            <div className="relative flex justify-evenly items-center px-6 py-6 bg-bg2 rounded-lg">
               <SiSolidity className="w-8 h-8 text-[#363636]" />
               <h3 className="text-lg font-medium text-gray-900">Solidity</h3>
             </div>

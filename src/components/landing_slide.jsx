@@ -11,6 +11,7 @@ import {
 
 const video =
   // "https://nftstorage.link/ipfs/bafybeifueea4vkn7eojj4ja7bupwyjca7nrutdqxscj6h3tq7jw7rizgbq";
+  // "https://nftstorage.link/ipfs/bafybeifueea4vkn7eojj4ja7bupwyjca7nrutdqxscj6h3tq7jw7rizgbq";
   "https://nftstorage.link/ipfs/bafybeifueea4vkn7eojj4ja7bupwyjca7nrutdqxscj6h3tq7jw7rizgbq";
 
 const LandingSlide = () => {
