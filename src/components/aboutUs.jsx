@@ -7,7 +7,10 @@ import CountUp from "react-countup";
 
 export default function AboutUs() {
   return (
-    <div className="w-[100vw] h-fit min-h-[50vh] md:min-h-[100vh] bg-neutral-900" id="about">
+    <div
+      className="w-[100vw] h-fit min-h-[50vh] md:min-h-[100vh] bg-neutral-900"
+      id="about"
+    >
       <div className="w-[90%] h-[90vh] m-auto py-12">
         <div className="flex flex-col md:flex-row w-full items-start justify-between h-fit md:h-[30%]">
           <div className="flex flex-col items-start justify-center w-fit h-full text-text_color1">
@@ -37,9 +40,8 @@ export default function AboutUs() {
           <div className="flex flex-col w-full md:w-[30%] items-center justify-between text-text_color1 h-full">
             <Fade>
               <p className="text-justify opacity-60">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque
-                velit magni eius dolor distinctio esse iusto veniam
-                exercitationem non,
+                Where technology meets creativity, extraordinary things happen.
+                Join us on our journey of innovation and progress
               </p>
             </Fade>
             <div className="flex flex-row w-full items-center justify-between pt-[5%]">
@@ -109,17 +111,19 @@ export default function AboutUs() {
             <Fade bottom>
               {" "}
               <p className="gil-bold text-4xl md:text-5xl ">
-                Why You Should <br /> Choose{" "}
-                <span className="text-primary">Spotmies</span>
+                Making Quality Services <br /> Accessible to{" "}
+                <span className="text-primary">Everyone</span>
               </p>
             </Fade>
             <div className="opacity-50">
               <Fade bottom>
                 <p className="gil-reg text-sm md:text-xl text-justify opacity-50">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Itaque velit magni eius dolor distinctio esse iusto veniam
-                  exercitationem non,Lorem ipsum dolor sit amet, consectetur
-                  adipisicing elit
+                  At our organization, we understand that quality of service is
+                  key to building customer trust and loyalty. That's why we go
+                  above and beyond to consistently deliver exceptional service
+                  with attention to detail and open communication. Our focus on
+                  meeting customer needs ensures their satisfaction and
+                  long-term success with our company.
                 </p>
               </Fade>
             </div>

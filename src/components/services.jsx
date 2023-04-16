@@ -19,7 +19,7 @@ export default function Services() {
                 {dataInsideDiv({
                   title: "Product Design",
                   description:
-                    "It creates an enjoyable and intuitive experience for Your users. It allows users to easily interact with a product or service.",
+                    "Transform your ideas into reality with our expert product design services",
                   image:
                     "https://images.unsplash.com/photo-1606161290889-77950cfb67d3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80",
                 })}
@@ -32,7 +32,7 @@ export default function Services() {
                   {dataInsideDiv({
                     title: "Web Development",
                     description:
-                      "We build web apps that are fast, secure, and scalable with the help of the latest technologies like React, Node, MongoDB And Next.js.",
+                      "From ideation to launch, our web development services deliver excellence at every step",
                     image:
                       "https://images.unsplash.com/photo-1508921340878-ba53e1f016ec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80",
                   })}
@@ -43,7 +43,7 @@ export default function Services() {
                   {dataInsideDiv({
                     title: "Blockchain & Web3",
                     description:
-                      "Blockchain services are becoming increasingly important in many industries, as they provide a secure, transparent, and immutable platform on which to store data and execute transactions.",
+                      "Empower your business with the transformative potential of blockchain technology",
                     image:
                       "https://images.unsplash.com/photo-1639152446002-ffd04bd3d529?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2232&q=80",
                   })}
@@ -54,22 +54,22 @@ export default function Services() {
           <div className="flex flex-col items-center justify-center h-full ml-0 md:ml-6 w-full md:w-[30%]">
             {/* this div contains 2 div, 1st one is 40% 2nd one is 60% heights respectively */}
             <Fade>
-              <div className="flex flex-col items-center justify-center w-full h-[30%] bg-yellow-100 rounded-xl mb-2 md:mb-6 industry-card relative">
+              <div className="flex flex-col items-center justify-center w-full h-[40%] bg-yellow-100 rounded-xl mb-2 md:mb-6 industry-card relative">
                 {dataInsideDiv({
                   title: "Windows & Mac",
                   description:
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+                    "Maximize your device's potential with our expert Windows & Mac services.",
                   image:
                     "https://images.unsplash.com/photo-1605379399642-870262d3d051?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1812&q=80",
                 })}
               </div>
             </Fade>
             <Fade>
-              <div className="flex flex-col items-center justify-center w-full h-[70%] bg-pink-100 rounded-xl industry-card relative">
+              <div className="flex flex-col items-center justify-center w-full h-[60%] bg-pink-100 rounded-xl industry-card relative">
                 {dataInsideDiv({
                   title: "Android & IOS",
                   description:
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "Building Mobile apps that not only look great but perform flawlessly across all devices",
                   image:
                     "https://images.unsplash.com/photo-1628233345409-349459e6f79a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80",
                 })}
@@ -89,7 +89,7 @@ export default function Services() {
           <Fade bottom>
             <p className="text-white gil-bold text-xl md:text-3xl">{title}</p>
           </Fade>
-          <p className="opacity-70 text-white text-xs md:text-sm onHoverShow text-justify pt-4">
+          <p className="opacity-70 text-white text-md md:text-xl onHoverShow text-justify pt-4">
             {description}
           </p>
           <BsArrowRight
