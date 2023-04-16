@@ -22,7 +22,7 @@ export default function TeamSlide2() {
     },
     {
       image:
-        "https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+        "https://nftstorage.link/ipfs/bafkreicg5436kw4iy4enp36iiyvosmyuiu63b4zx6eglyevd52mnnqh434",
       name: "Venkat",
       designation: "Product Architect",
       social: {
@@ -66,7 +66,7 @@ export default function TeamSlide2() {
     },
     {
       image:
-        "https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+        "https://nftstorage.link/ipfs/bafybeif3shhcbwmtgs5vzmalh2zksy4livhmc72rjn6gjr7twinnvmhjie",
       name: "Sudhir Kumar",
       designation: "UI/UX Designer",
       social: {

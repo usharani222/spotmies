@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, Suspense } from "react";
 import HoverButton from "./reusableComponent/hoverButton";
 import {
   AiOutlineArrowRight,
@@ -10,9 +10,11 @@ import {
 } from "react-icons/ai";
 
 const video =
-  // "https://nftstorage.link/ipfs/bafybeifueea4vkn7eojj4ja7bupwyjca7nrutdqxscj6h3tq7jw7rizgbq";
-  // "https://nftstorage.link/ipfs/bafybeifueea4vkn7eojj4ja7bupwyjca7nrutdqxscj6h3tq7jw7rizgbq";
   "https://nftstorage.link/ipfs/bafybeifueea4vkn7eojj4ja7bupwyjca7nrutdqxscj6h3tq7jw7rizgbq";
+// "https://nftstorage.link/ipfs/bafybeifueea4vkn7eojj4ja7bupwyjca7nrutdqxscj6h3tq7jw7rizgbq";
+
+const image =
+  "https://images.unsplash.com/photo-1543269664-56d93c1b41a6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80";
 
 const LandingSlide = () => {
   return (
@@ -27,14 +29,32 @@ const LandingSlide = () => {
       <div className="fixed top-0 left-0 h-fit w-full z-50">
         <Navbarr />
       </div>
-      <video
-        src={video}
-        autoPlay
-        loop
-        muted
-        className="absolute top-0 left-0 h-full w-full object-cover z-0"
-      />
-      <div className="absolute h-[50vh] md:h-[60vh] bg-bg1 opacity-40 w-[10vw] md:w-[7vw] left-0 rounded-sm">
+      <Suspense
+        fallback={
+          <img
+            src={image}
+            // src="/favicon.ico"
+            className="absolute top-0 left-0 h-full w-full object-cover z-0"
+            alt="fallback image"
+          />
+        }
+      >
+        <video
+          src={video}
+          autoPlay
+          loop
+          muted
+          className="absolute top-0 left-0 h-full w-full object-cover z-0"
+          style={{
+            // background image
+            backgroundImage: `url(${image})`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+          }}
+        />
+      </Suspense>
+      <div className="absolute h-[50vh] md:h-[60vh] bg-bg1 opacity-40 w-[10vw] md:w-[7vw] left-0 rounded-sm animated-x">
         <div className="h-full w-full flex flex-col items-center justify-center">
           {Array(7)
             .fill(0)
@@ -51,11 +71,11 @@ const LandingSlide = () => {
         </div>
       </div>
 
-      <div className="absolute z-10 text-center text-white animated w-[70%]">
-        <h1 className="text-3xl md:text-4xl lg:text-6xl gil-bold mb-4 text-left w-full md:w-[70%] opacity-85">
+      <div className="absolute z-10 text-center text-white w-[70%] animated">
+        <h1 className="text-3xl md:text-4xl lg:text-6xl gil-bold mb-4 text-left w-full md:w-[70%] opacity-85 animated">
           Innovative solutions to stay ahead of the competition
         </h1>
-        <p className="text-sm md:text-lg lg:text-md mb-8 text-left opacity-70 w-full md:w-[60%]">
+        <p className="text-sm md:text-lg lg:text-md mb-8 text-left opacity-70 w-full md:w-[60%] animated">
           Professional services that deliver exceptional quality, reliability,
           and customer service to exceed your expectations.
         </p>
@@ -78,7 +98,7 @@ const LandingSlide = () => {
                 .scrollIntoView({ behavior: "smooth" });
             }}
             type={"button"}
-            className={`gil-reg text-sm flex flex-row items-center justify-center hover:bg-white hover:text-bg1 rounded-sm min-w-[120px]  min-h-[40px] mt-4 bg-transparent text-white border border-white`}
+            className={`gil-reg text-sm flex flex-row items-center justify-center hover:bg-white hover:text-bg1 rounded-sm min-w-[120px]  min-h-[40px] mt-4 bg-transparent text-white border border-white animated`}
           >
             Read More
           </button>

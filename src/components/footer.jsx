@@ -1,6 +1,8 @@
+"use client";
+import { socialMediaRedirect } from "@/constants";
 import React from "react";
-import { AiOutlineArrowRight } from "react-icons/ai";
-import { FaLinkedin, FaYoutube, FaTwitter, FaGithub } from "react-icons/fa";
+import { AiFillInstagram, AiOutlineArrowRight } from "react-icons/ai";
+import { FaLinkedin, FaYoutube, FaTwitter, FaGithub, FaInstagram } from "react-icons/fa";
 
 export default function FooterBar() {
   return (
@@ -99,18 +101,41 @@ export default function FooterBar() {
               © 2023 Spotmies LLP. All Rights Reserved.
             </div>
             <div className="flex space-x-4">
-              <a href="#" aria-label="LinkedIn">
-                <FaLinkedin className="w-6 h-6 hover:text-gray-400 transition-colors" />
+            <a
+                
+                aria-label="GitHub"
+                onClick={() => socialMediaRedirect("instagram")}
+              >
+                <AiFillInstagram className="w-6 h-6 hover:text-gray-400 transition-colors cursor-pointer" />
               </a>
-              <a href="#" aria-label="YouTube">
-                <FaYoutube className="w-6 h-6 hover:text-gray-400 transition-colors" />
+              <a
+                aria-label="LinkedIn"
+                onClick={() => socialMediaRedirect("linkedin")}
+              >
+                <FaLinkedin className="w-6 h-6 hover:text-gray-400 transition-colors cursor-pointer" />
               </a>
-              <a href="#" aria-label="Twitter">
-                <FaTwitter className="w-6 h-6 hover:text-gray-400 transition-colors" />
+              <a
+                // href="#"
+                aria-label="YouTube"
+                onClick={() => socialMediaRedirect("youtube")}
+              >
+                <FaYoutube className="w-6 h-6 hover:text-gray-400 transition-colors cursor-pointer" />
               </a>
-              <a href="#" aria-label="GitHub">
-                <FaGithub className="w-6 h-6 hover:text-gray-400 transition-colors" />
+              <a
+                // href="#"
+                aria-label="Twitter"
+                onClick={() => socialMediaRedirect("twitter")}
+              >
+                <FaTwitter className="w-6 h-6 hover:text-gray-400 transition-colors cursor-pointer" />
               </a>
+              <a
+                
+                aria-label="GitHub"
+                onClick={() => socialMediaRedirect("github")}
+              >
+                <FaGithub className="w-6 h-6 hover:text-gray-400 transition-colors cursor-pointer" />
+              </a>
+              
             </div>
           </div>
         </div>

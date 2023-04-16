@@ -347,3 +347,46 @@ export const clients = [
       "https://nftstorage.link/ipfs/bafybeia4pjv3msjwzsssqvxdldpg6nipi4dxzcsgdrqwdfnncgstudmif4",
   },
 ];
+
+// create a function to redirect to social media links like twitter, instagram, etc
+export const socialMediaRedirect = (mediaName) => {
+  const twitter = "https://twitter.com/spotmies";
+  const instagram = "https://www.instagram.com/spotmies";
+  const discord = "https://discord.com/";
+  const telegram = "https://t.me/";
+  const youtube = "https://www.youtube.com/@spotmies4765";
+  const facebook = "https://www.facebook.com/";
+  const medium = "https://medium.com/";
+  const linkedin = "https://www.linkedin.com/company/spotmies";
+  const github = "https://github.com/spotmies";
+
+  switch (mediaName) {
+    case "twitter":
+      window.open(twitter, "_blank");
+      break;
+    case "instagram":
+      window.open(instagram, "_blank");
+      break;
+    case "discord":
+      window.open(discord, "_blank");
+      break;
+    case "telegram":
+      window.open(telegram, "_blank");
+      break;
+    case "youtube":
+      window.open(youtube, "_blank");
+      break;
+    case "facebook":
+      window.open(facebook, "_blank");
+      break;
+    case "medium":
+      window.open(medium, "_blank");
+    case "linkedin":
+      window.open(linkedin, "_blank");
+    case "github":
+      window.open(github, "_blank");
+      break;
+    default:
+      break;
+  }
+};
