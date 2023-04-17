@@ -101,32 +101,10 @@ const LandingSlide = () => {
             className={`gil-reg text-sm flex flex-row items-center justify-center hover:bg-white hover:text-bg1 rounded-sm min-w-[120px]  min-h-[40px] mt-4 bg-transparent text-white border border-white animated`}
           >
             Read More
+            <AiOutlineArrowRight className="ml-2" />
           </button>
         </div>
       </div>
-      {/* <div className="absolute z-10 bottom-0 w-[100%] rounded-sm shadow-xl bg-primary opacity-50 h-32">
-        <div className="h-full w-full z-20 flex flex-col md:flex-row justify-around items-center">
-          <div className="flex flex-col items-center justify-center">
-            <p className="text-white text-[2.5rem] font-bold mb-0">30 +</p>
-            <p className="text-white text-[1.5rem] font-extrabold flex flex-row items-center">
-              <AiOutlineUsergroupAdd className="mr-2" />
-              <span> Recruiters</span>
-            </p>
-          </div>
-          <div className="flex flex-col items-center justify-center">
-            <p className="text-white text-[2.5rem] font-bold mb-0 ">300 +</p>
-            <p className="text-white text-[1.5rem] font-extrabold flex flex-row items-center">
-              <AiOutlineFileDone className="mr-2" /> Job seekers
-            </p>
-          </div>
-          <div className="flex flex-col items-center justify-center">
-            <p className="text-white text-[2.5rem] font-black mb-0">50 +</p>
-            <p className="text-white text-[1.5rem] font-extrabold flex flex-row items-center">
-              <AiOutlineSwap className="mr-2" /> Onboarded
-            </p>
-          </div>
-        </div>
-      </div> */}
     </section>
   );
 };
@@ -167,7 +145,10 @@ export const Navbarr = () => {
   }, []);
 
   return (
-    <nav className="bg-transparent fixed w-full z-10 px-5 animated-down" id="navigationBar">
+    <nav
+      className="bg-transparent fixed w-full z-10 px-5 animated-down"
+      id="navigationBar"
+    >
       <div className="container mx-auto flex justify-between items-center py-4">
         <div className="flex items-center">
           <img
@@ -206,6 +187,14 @@ export const Navbarr = () => {
           >
             Services
           </a>
+          <a
+            onClick={() => navigation("portfolio")}
+            className={`${
+              toggleNavbar ? "text-primary" : "text-white"
+            }  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer`}
+          >
+            Portfolio
+          </a>
 
           <a
             onClick={() => navigation("about")}
@@ -232,13 +221,13 @@ export const Navbarr = () => {
           >
             Contact Us
           </a>
-          <a
+          {/* <a
             className={`${
               toggleNavbar ? "text-primary" : "text-white"
             }  mx-4 border-b-2 border-transparent  cursor-pointer`}
           >
             <AiOutlineSearch className="text-2xl hover:text-primary" />
-          </a>
+          </a> */}
         </div>
       </div>
       <div

@@ -18,7 +18,7 @@ const PortfolioSection = () => {
   };
 
   return (
-    <div className="w-[100vw] bg-white" id="industries">
+    <div className="w-[100vw] bg-white" id="portfolio">
       <section className="bg-white py-12 m-auto w-[90%] md:block hidden">
         <div className="container mx-auto w-full">
           <Fade bottom>
@@ -90,7 +90,11 @@ const PortfolioSection = () => {
           </div>
           {filterWork.length !== worksJson.length && (
             <div className="w-full flex flex-row items-center justify-center">
-              <HoverButton text={"Show More"} onClick={showMore} className="rounded-xl" />
+              <HoverButton
+                text={"Show More"}
+                onClick={showMore}
+                className="rounded-xl"
+              />
             </div>
           )}
         </div>
