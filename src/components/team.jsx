@@ -44,7 +44,7 @@ export default function TeamSlide() {
                     description:
                       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
                     image:
-                      "https://images.unsplash.com/photo-1598257006458-087169a1f08d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
+                      "https://nftstorage.link/ipfs/bafybeiglio42xmbwpo3twmh4rposg4fin5plvw6aoek5r2bubbd3xrn4vm",
                   })}
                 </div>
               </Fade>
@@ -88,7 +88,7 @@ export default function TeamSlide() {
                   description:
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
                   image:
-                    "https://images.unsplash.com/photo-1623685462430-c485d0f6cd29?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1093&q=80",
+                    "https://nftstorage.link/ipfs/bafybeif65bbuoxkm5ocwd5xpn5xdu2dyaknkw7kowkemuthqpniq3wqcfi",
                 })}
               </div>
             </Fade>

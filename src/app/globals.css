@@ -133,6 +133,60 @@ a {
   font-family: "Gilroy Light";
 }
 
+.animated {
+  animation-name: slideInUpp;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+  visibility: visible;
+}
+@keyframes slideInUpp {
+  from {
+    transform: translateY(50%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.animated-down {
+  animation-name: slideInDown;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+  visibility: visible;
+}
+@keyframes slideInDown {
+  from {
+    transform: translateY(-50%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.animated-x {
+  animation-name: slideInLeft;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+  visibility: visible;
+}
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
 .onHoverShow {
   opacity: 0;
   transform: translateY(10px);
