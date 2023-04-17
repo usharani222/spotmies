@@ -356,9 +356,10 @@ export const socialMediaRedirect = (mediaName) => {
   const telegram = "https://t.me/";
   const youtube = "https://www.youtube.com/@spotmies4765";
   const facebook = "https://www.facebook.com/";
-  const medium = "https://medium.com/";
   const linkedin = "https://www.linkedin.com/company/spotmies";
   const github = "https://github.com/spotmies";
+  const behance = "https://www.behance.net/naveenkatava";
+  const medium = "https://medium.com/@spotmies";
 
   switch (mediaName) {
     case "twitter":
@@ -381,10 +382,15 @@ export const socialMediaRedirect = (mediaName) => {
       break;
     case "medium":
       window.open(medium, "_blank");
+      break;
     case "linkedin":
       window.open(linkedin, "_blank");
+      break;
     case "github":
       window.open(github, "_blank");
+      break;
+    case "behance":
+      window.open(behance, "_blank");
       break;
     default:
       break;

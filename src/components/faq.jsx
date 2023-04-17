@@ -86,7 +86,7 @@ function Faq() {
           </h2>
         </Fade>
 
-        <div className="flex flex-col md:flex-row justify-between w-full items-center m-auto h-full ">
+        <div className="flex flex-col md:flex-row justify-between w-full items-start m-auto h-full ">
           <div className="max-w-xl pt-4 md:pt-0">
             {faqs.slice(0, 4).map((faq, key) => (
               <div

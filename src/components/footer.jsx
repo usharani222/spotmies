@@ -1,7 +1,12 @@
 "use client";
 import { socialMediaRedirect } from "@/constants";
 import React from "react";
-import { AiFillInstagram, AiOutlineArrowRight } from "react-icons/ai";
+import {
+  AiFillBehanceSquare,
+  AiFillInstagram,
+  AiOutlineArrowRight,
+} from "react-icons/ai";
+import { BsMedium } from "react-icons/bs";
 import {
   FaLinkedin,
   FaYoutube,
@@ -26,8 +31,8 @@ export default function FooterBar() {
               <p className="mb-4 text-justify">
                 Spotmies is a leading provider of innovative solutions for
                 Product Designing & Blockchain. With a team of experienced
-                professionals & a commitment to excellence, we are dedicated
-                to helping our clients achieve their goals and stay ahead of the
+                professionals & a commitment to excellence, we are dedicated to
+                helping our clients achieve their goals and stay ahead of the
                 competition. Our mission is to provide high-quality services &
                 products that deliver tangible results and drive business
                 success.
@@ -141,6 +146,20 @@ export default function FooterBar() {
                 onClick={() => socialMediaRedirect("github")}
               >
                 <FaGithub className="w-6 h-6 hover:text-gray-400 transition-colors cursor-pointer" />
+              </a>
+
+              <a
+                aria-label="GitHub"
+                onClick={() => socialMediaRedirect("behance")}
+              >
+                <AiFillBehanceSquare className="w-6 h-6 hover:text-gray-400 transition-colors cursor-pointer" />
+              </a>
+
+              <a
+                aria-label="GitHub"
+                onClick={() => socialMediaRedirect("medium")}
+              >
+                <BsMedium className="w-6 h-6 hover:text-gray-400 transition-colors cursor-pointer" />
               </a>
             </div>
           </div>
