@@ -1,6 +1,8 @@
 "use client";
 import React from "react";
 import {
+  AiFillBehanceSquare,
+  AiFillGithub,
   AiFillLinkedin,
   AiOutlineInstagram,
   AiOutlineTwitter,
@@ -15,9 +17,8 @@ export default function TeamSlide2() {
       name: "Satis Kumar Saride",
       designation: "Founder & CEO",
       social: {
-        facebook: "https://www.facebook.com/",
-        twitter: "https://twitter.com/",
-        linkedin: "https://www.linkedin.com/",
+        // twitter: "https://twitter.com/satish_saride",
+        linkedin: "https://www.linkedin.com/in/saride-satish-kumar-59a26a187",
       },
     },
     {
@@ -26,9 +27,8 @@ export default function TeamSlide2() {
       name: "Venkat",
       designation: "Product Architect",
       social: {
-        facebook: "https://www.facebook.com/",
-        twitter: "https://twitter.com/",
-        linkedin: "https://www.linkedin.com/",
+        twitter: "https://twitter.com/PvrRox?t=6nDjRpE4_9LYeLAHlYd4cQ&s=09",
+        linkedin: "https://www.linkedin.com/in/venkat-p-79b366119",
       },
     },
     {
@@ -37,9 +37,9 @@ export default function TeamSlide2() {
       name: "Sekhar javvadi",
       designation: "Product Manager",
       social: {
-        facebook: "https://www.facebook.com/",
-        twitter: "https://twitter.com/",
-        linkedin: "https://www.linkedin.com/",
+        twitter: "https://twitter.com/SekharJavvadi",
+        linkedin: "https://www.linkedin.com/in/sekhar-javvadi-987380158",
+        github: "https://github.com/sekharjavvadi",
       },
     },
     {
@@ -48,9 +48,9 @@ export default function TeamSlide2() {
       name: "Hemanth Kumar",
       designation: "Head of Blockchain Development",
       social: {
-        facebook: "https://www.facebook.com/",
-        twitter: "https://twitter.com/",
-        linkedin: "https://www.linkedin.com/",
+        twitter: "https://twitter.com/The_Veeranala",
+        linkedin:
+          "https://www.linkedin.com/in/hemanth-kumar-veeranala-967ba318a",
       },
     },
     {
@@ -59,9 +59,9 @@ export default function TeamSlide2() {
       name: "Naveen Kumar",
       designation: "Head of Product Design",
       social: {
-        facebook: "https://www.facebook.com/",
-        twitter: "https://twitter.com/",
-        linkedin: "https://www.linkedin.com/",
+        behance: "https://www.behance.net/naveenkatava",
+
+        linkedin: "https://www.linkedin.com/in/naveen-kumar-atava-318ba318a",
       },
     },
     {
@@ -70,9 +70,7 @@ export default function TeamSlide2() {
       name: "Sudhir Kumar",
       designation: "Head of Marketing",
       social: {
-        facebook: "https://www.facebook.com/",
-        twitter: "https://twitter.com/",
-        linkedin: "https://www.linkedin.com/",
+        linkedin: "https://www.linkedin.com/in/sudhirvolt",
       },
     },
     {
@@ -141,7 +139,11 @@ export default function TeamSlide2() {
   );
 }
 
-export const TeamCard = ({ image, name, designation }) => {
+export const TeamCard = ({ image, name, designation, social }) => {
+  const navigateTo = (url) => {
+    window.open(url, "_blank");
+  };
+
   return (
     <div className="group  w-[300px] h-[370px] rounded-lg overflow-hidden shadow-md m-2 relative industry-card">
       <img
@@ -153,10 +155,37 @@ export const TeamCard = ({ image, name, designation }) => {
       <div className="absolute bottom-0 px-6 py-4 flex flex-col items-center justify-center w-full">
         <div className="gil-bold text-xl text-slate-200">{name}</div>
         <div className="text-slate-300 text-base">{designation}</div>
-        <div className="flex justify-between mt-4 w-[70%] onHoverShow">
-          <AiOutlineInstagram className="text-slate-300 cursor-pointer hover:text-[#E1306C] text-3xl" />
-          <AiOutlineTwitter className="text-slate-300 hover:text-blue-400 cursor-pointer text-3xl" />
-          <AiFillLinkedin className="text-slate-300 hover:text-sky-600 cursor-pointer text-3xl" />
+        <div className="flex justify-evenly mt-4 w-[70%] onHoverShow">
+          {social?.instagram && (
+            <AiOutlineInstagram
+              className="text-slate-300 cursor-pointer hover:text-[#E1306C] text-3xl"
+              onClick={() => navigateTo(social?.instagram)}
+            />
+          )}
+          {social?.twitter && (
+            <AiOutlineTwitter
+              className="text-slate-300 hover:text-blue-400 cursor-pointer text-3xl"
+              onClick={() => navigateTo(social?.twitter)}
+            />
+          )}
+          {social?.linkedin && (
+            <AiFillLinkedin
+              className="text-slate-300 hover:text-sky-600 cursor-pointer text-3xl"
+              onClick={() => navigateTo(social?.linkedin)}
+            />
+          )}
+          {social?.github && (
+            <AiFillGithub
+              className="text-slate-300 hover:text-black cursor-pointer text-3xl"
+              onClick={() => navigateTo(social?.github)}
+            />
+          )}
+          {social?.behance && (
+            <AiFillBehanceSquare
+              className="text-slate-300 hover:text-blue-500 cursor-pointer text-3xl"
+              onClick={() => navigateTo(social?.behance)}
+            />
+          )}
         </div>
       </div>
     </div>
