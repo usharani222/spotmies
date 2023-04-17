@@ -26,7 +26,7 @@ const LandingSlide = () => {
         className="absolute inset-0 bg-black opacity-40 w-full h-full rounded-none "
         style={{ zIndex: "9" }}
       ></div>
-      <div className="fixed top-0 left-0 h-fit w-full z-50">
+      <div className="fixed top-0 left-0 h-fit w-full z-50 ">
         <Navbarr />
       </div>
       <Suspense
@@ -167,7 +167,7 @@ export const Navbarr = () => {
   }, []);
 
   return (
-    <nav className="bg-transparent fixed w-full z-10 px-5" id="navigationBar">
+    <nav className="bg-transparent fixed w-full z-10 px-5 animated-down" id="navigationBar">
       <div className="container mx-auto flex justify-between items-center py-4">
         <div className="flex items-center">
           <img

@@ -151,6 +151,24 @@ a {
   }
 }
 
+.animated-down {
+  animation-name: slideInDown;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+  visibility: visible;
+}
+@keyframes slideInDown {
+  from {
+    transform: translateY(-50%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
 .animated-x {
   animation-name: slideInLeft;
   animation-duration: 1s;
@@ -166,7 +184,6 @@ a {
   }
   to {
     transform: translateX(0);
-    
   }
 }
 

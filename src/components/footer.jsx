@@ -2,7 +2,13 @@
 import { socialMediaRedirect } from "@/constants";
 import React from "react";
 import { AiFillInstagram, AiOutlineArrowRight } from "react-icons/ai";
-import { FaLinkedin, FaYoutube, FaTwitter, FaGithub, FaInstagram } from "react-icons/fa";
+import {
+  FaLinkedin,
+  FaYoutube,
+  FaTwitter,
+  FaGithub,
+  FaInstagram,
+} from "react-icons/fa";
 
 export default function FooterBar() {
   return (
@@ -18,10 +24,13 @@ export default function FooterBar() {
               />
               {/* <h2 className="text-lg gil-bold mb-4">About Us</h2> */}
               <p className="mb-4 text-justify">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio,
-                esse adipisci distinctio ex saepe velit! Officia, eum placeat?
-                Nostrum, commodi. Natus debitis asperiores nostrum expedita,
-                necessitatibus non culpa? Molestias, ullam.
+                Spotmies is a leading provider of innovative solutions for
+                Product Designing & Blockchain. With a team of experienced
+                professionals & a commitment to excellence, we are dedicated
+                to helping our clients achieve their goals and stay ahead of the
+                competition. Our mission is to provide high-quality services &
+                products that deliver tangible results and drive business
+                success.
               </p>
             </div>
             <div className="w-full md:w-1/3 lg:w-1/5">
@@ -101,8 +110,7 @@ export default function FooterBar() {
               © 2023 Spotmies LLP. All Rights Reserved.
             </div>
             <div className="flex space-x-4">
-            <a
-                
+              <a
                 aria-label="GitHub"
                 onClick={() => socialMediaRedirect("instagram")}
               >
@@ -129,13 +137,11 @@ export default function FooterBar() {
                 <FaTwitter className="w-6 h-6 hover:text-gray-400 transition-colors cursor-pointer" />
               </a>
               <a
-                
                 aria-label="GitHub"
                 onClick={() => socialMediaRedirect("github")}
               >
                 <FaGithub className="w-6 h-6 hover:text-gray-400 transition-colors cursor-pointer" />
               </a>
-              
             </div>
           </div>
         </div>

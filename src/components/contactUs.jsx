@@ -49,26 +49,38 @@ export default function ContactUs() {
                 <div className="w-[40px] h-[40px] bg-transparent flex flex-col items-center justify-center cursor-pointer ">
                   <Fade left>
                     {" "}
-                    <AiOutlineTwitter size="1.6rem" onClick={() => socialMediaRedirect('twitter') } />
+                    <AiOutlineTwitter
+                      size="1.6rem"
+                      onClick={() => socialMediaRedirect("twitter")}
+                    />
                   </Fade>
                 </div>
 
                 <div className="w-[40px] h-[40px] bg-transparent flex flex-col items-center justify-center cursor-pointer">
                   <Fade left>
                     {" "}
-                    <FaLinkedinIn size="1.4rem" onClick={() => socialMediaRedirect('linkedin')} />
+                    <FaLinkedinIn
+                      size="1.4rem"
+                      onClick={() => socialMediaRedirect("linkedin")}
+                    />
                   </Fade>
                 </div>
 
                 <div className="w-[40px] h-[40px] bg-transparent flex flex-col items-center justify-center cursor-pointer">
                   <Fade left>
-                    <AiFillInstagram size="1.6rem"onClick={() => socialMediaRedirect('instagram')} />
+                    <AiFillInstagram
+                      size="1.6rem"
+                      onClick={() => socialMediaRedirect("instagram")}
+                    />
                   </Fade>
                 </div>
 
                 <div className="w-[40px] h-[40px] bg-transparent flex flex-col items-center justify-center cursor-pointer">
                   <Fade left>
-                    <FaYoutube size="1.4rem" onClick={() => socialMediaRedirect('youtube')} />
+                    <FaYoutube
+                      size="1.4rem"
+                      onClick={() => socialMediaRedirect("youtube")}
+                    />
                   </Fade>
                 </div>
               </div>
@@ -87,7 +99,7 @@ export default function ContactUs() {
                     Take A Coffee & <span className="gil-bold">Chat</span> With
                     Us
                   </p>
-                  <p className="opacity-30 text-sm text-primary2">
+                  <p className="opacity-30 text-sm text-slate-400">
                     24/7 We will answer your questions & problems
                   </p>
                 </Fade>

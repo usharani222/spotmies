@@ -40,8 +40,10 @@ export default function AboutUs() {
           <div className="flex flex-col w-full md:w-[30%] items-center justify-between text-text_color1 h-full">
             <Fade>
               <p className="text-justify opacity-60">
-                Where technology meets creativity, extraordinary things happen.
-                Join us on our journey of innovation and progress
+                Discover the limitless possibilities where technology meets
+                creativity. Our journey of innovation and progress is filled
+                with exceptional outcomes. Join us to explore and be a part of
+                something extraordinary.
               </p>
             </Fade>
             <div className="flex flex-row w-full items-center justify-between pt-[5%]">

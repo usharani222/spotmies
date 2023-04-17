@@ -22,7 +22,7 @@ export default function TeamSlide2() {
     },
     {
       image:
-        "https://nftstorage.link/ipfs/bafkreicg5436kw4iy4enp36iiyvosmyuiu63b4zx6eglyevd52mnnqh434",
+        "https://nftstorage.link/ipfs/bafkreidskjiaj65kdyjji47lwcrupcnkj7myn5tqh7c2qnlepsiljdh2fq",
       name: "Venkat",
       designation: "Product Architect",
       social: {
@@ -35,7 +35,7 @@ export default function TeamSlide2() {
       image:
         "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2Fsekhar.jpg?alt=media&token=03bc9e11-ad9b-428d-8bd2-e661d82b42cb",
       name: "Sekhar javvadi",
-      designation: "Full Stack Developer",
+      designation: "Product Manager",
       social: {
         facebook: "https://www.facebook.com/",
         twitter: "https://twitter.com/",
@@ -46,7 +46,7 @@ export default function TeamSlide2() {
       image:
         "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2Fhemanth.jpg?alt=media&token=fb20a381-2884-4f31-85be-0095bd3c55e8",
       name: "Hemanth Kumar",
-      designation: "Blockchain Developer",
+      designation: "Head of Blockchain Development",
       social: {
         facebook: "https://www.facebook.com/",
         twitter: "https://twitter.com/",
@@ -57,7 +57,7 @@ export default function TeamSlide2() {
       image:
         "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2Fnaveen.jpeg?alt=media&token=d9c2da83-cebe-4138-a5a8-39ef50f19dd0",
       name: "Naveen Kumar",
-      designation: "Product Designer",
+      designation: "Head of Product Design",
       social: {
         facebook: "https://www.facebook.com/",
         twitter: "https://twitter.com/",
@@ -68,7 +68,7 @@ export default function TeamSlide2() {
       image:
         "https://nftstorage.link/ipfs/bafybeif3shhcbwmtgs5vzmalh2zksy4livhmc72rjn6gjr7twinnvmhjie",
       name: "Sudhir Kumar",
-      designation: "UI/UX Designer",
+      designation: "Head of Marketing",
       social: {
         facebook: "https://www.facebook.com/",
         twitter: "https://twitter.com/",
