@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
-import { FaReact, FaNodeJs } from "react-icons/fa";
-import { SiFlutter, SiMongodb, SiSolidity } from "react-icons/si";
+
 import { Fade } from "react-reveal";
 
 export default function TechSlide() {
