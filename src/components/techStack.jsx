@@ -85,7 +85,7 @@ export default function TechStack() {
 
   return (
     <Wrapper
-      title={"Tech stack we're working with"}
+      title={"Techstack we're working with"}
       className="bg-bg3 min-h-fit"
     >
       <div className="mt-5 px-0 md:px-5">
