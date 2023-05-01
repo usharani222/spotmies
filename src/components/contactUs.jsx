@@ -1,5 +1,5 @@
 "use client";
-import React,{ useRef, useState }  from "react";
+import React, { useRef, useState } from "react";
 import {
   AiOutlineTwitter,
   AiFillInstagram,
@@ -7,14 +7,13 @@ import {
   AiOutlineMail,
   AiOutlineMobile,
 } from "react-icons/ai";
-import { FaFacebookF, FaLinkedinIn, FaYoutube } from "react-icons/fa";
+import { FaLinkedinIn, FaYoutube } from "react-icons/fa";
 import HoverButton from "./reusableComponent/hoverButton";
 import { Fade } from "react-reveal";
 import { socialMediaRedirect } from "@/constants";
 
 export default function ContactUs() {
-
-  const [loading,setLoading] = useState(false);
+  const [loading, setLoading] = useState(false);
 
   const nameRef = useRef(null);
   const mailRef = useRef(null);
@@ -22,16 +21,16 @@ export default function ContactUs() {
   const descriptionRef = useRef(null);
 
   function Submit(e) {
-   e.preventDefault();
-   const formEle = document.querySelector("form");
+    e.preventDefault();
+    const formEle = document.querySelector("form");
     const name = nameRef?.current?.value;
     const mobile = mobileRef?.current?.value;
     const mail = mailRef?.current?.value;
     const description = descriptionRef?.current?.value;
 
-    console.log(name,mobile,mail,description)
+    console.log(name, mobile, mail, description);
 
-// pushing data to google sheet
+    // pushing data to google sheet
 
     const formDatab = new FormData(formEle);
     console.log(formDatab);
@@ -42,21 +41,30 @@ export default function ContactUs() {
       "https://script.google.com/macros/s/AKfycbxmCKtzq0paW6ovftholsG1MqTpYVngu6JE6n12HWYnysF78xpS/exec",
       {
         method: "POST",
-        body: formDatab
+        body: formDatab,
       }
     )
       .then((res) => res.json())
       .then((data) => {
-        setLoading(false)
+        setLoading(false);
         console.log(data);
+        alert("Thank you for contacting us. We will get back to you soon.");
+        // clear the form
+        try {
+          nameRef.current.value = "";
+          mailRef.current.value = "";
+          if (mobileRef.current) mobileRef.current.value = "";
+          descriptionRef.current.value = "";
+        } catch (error) {
+          console.log(error);
+        }
       })
       .catch((error) => {
-        setLoading(false)
+        setLoading(false);
         console.log(error);
       });
-
   }
-  
+
   return (
     <div
       className="w-[100vw] h-fit md:h-[650px] text-black py-9 bg-bg2"
@@ -155,8 +163,8 @@ export default function ContactUs() {
                       <AiOutlineUser />
                     </div>
                     <input
-                    name="Name"
-                    ref={nameRef}
+                      name="Name"
+                      ref={nameRef}
                       required={true}
                       type="text"
                       id="input-group-1"
@@ -183,11 +191,10 @@ export default function ContactUs() {
                     <AiOutlineMail />
                   </div>
                   <input
-                  name="Email"
-
+                    name="Email"
                     ref={mailRef}
                     required={true}
-                    type="text"
+                    type="email"
                     id="input-group-1"
                     className="h-[50px] outline-none bg-transparent border border-gray-300 text-gray-900 text-sm rounded-xl block w-full pl-10 p-2.5 "
                     placeholder="your@email.com"
@@ -200,34 +207,33 @@ export default function ContactUs() {
                     <AiOutlineMobile />
                   </div>
                   <input
-                  name="Phone"
+                    name="Phone"
                     ref={mobileRef}
                     type="text"
                     id="input-group-1"
                     className="h-[50px] outline-none bg-transparent border border-gray-300 text-gray-900 text-sm rounded-xl block w-full pl-10 p-2.5 "
-                    placeholder="9876543210"
+                    placeholder="9876543210 (optional)"
                   />
                 </div>
               </Fade>
               <Fade bottom>
                 <div className="relative mb-6 w-[90%]">
                   <textarea
-                  name="Message"
-                  ref={descriptionRef}
+                    name="Message"
+                    ref={descriptionRef}
                     required={true}
                     rows={5}
                     type="text"
                     id="input-group-1"
                     className="outline-none bg-transparent border border-gray-300 text-gray-900 text-sm rounded-xl block w-full p-2.5 "
-                    placeholder="Description"
+                    placeholder="Your Message"
                   />
                   <input
-                  hidden
-                  type="date"
-                  name="Date"
-                  defaultValue={new Date().toISOString().substring(0, 10)
-                   }
-                   />
+                    hidden
+                    type="date"
+                    name="Date"
+                    defaultValue={new Date().toISOString().substring(0, 10)}
+                  />
                 </div>
               </Fade>
 
