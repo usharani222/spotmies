@@ -364,7 +364,7 @@ export const socialMediaRedirect = (mediaName) => {
   const facebook = "https://www.facebook.com/";
   const linkedin = "https://www.linkedin.com/company/spotmies";
   const github = "https://github.com/spotmies";
-  const behance = "https://www.behance.net/naveenkatava";
+  const behance = "https://www.behance.net/spotmiesllp";
   const medium = "https://medium.com/@spotmies";
 
   switch (mediaName) {
