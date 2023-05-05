@@ -58,7 +58,7 @@ This command will run a linter on the project code to check for any syntax or fo
 
 ---
 
-##Dependencies
+## Dependencies
 
 The project relies on several dependencies to function correctly. Here's a brief overview of each of the project's dependencies:
 
@@ -75,7 +75,7 @@ The project relies on several dependencies to function correctly. Here's a brief
 
 ---
 
-##Dev Dependencies
+## Dev Dependencies
 The project has the following dev dependencies:
 
 `autoprefixer`
