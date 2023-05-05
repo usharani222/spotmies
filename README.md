@@ -34,6 +34,7 @@ To run the development server, run:
 ```bash
 npm run dev
 ```
+
 This will start a local development server, and you can access the web application on your browser at http://localhost:3000/. You can now start making changes to the project code, and the server will automatically reload with the latest changes.
 
 To build the project for production, run the following command:
