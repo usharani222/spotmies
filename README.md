@@ -1,5 +1,8 @@
 # Spotmies Website
 
+![Image 2023-04-26 at 7 47 37 PM (2)](https://user-images.githubusercontent.com/90003260/236407922-eac073a6-526b-42ed-a069-557d37479230.jpeg)
+![Image 2023-04-26 at 7 47 36 PM](https://user-images.githubusercontent.com/90003260/236407973-323ee5ef-ae13-4ee4-9d11-e3e0c429dd42.jpeg)
+![Image 2023-04-26 at 7 47 33 PM (1)](https://user-images.githubusercontent.com/90003260/236408112-b75a790b-5973-42a5-94df-79247e92a77a.jpeg)
 
 
 
