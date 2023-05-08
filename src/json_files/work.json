@@ -6,7 +6,37 @@
     "projectLink": "https://www.schemaxtech.com",
     "tags": ["Web 2"],
     "title": "Schemax Tech",
-    "completed": true
+    "completed": true,
+    "overview": {
+      "images": [
+        "https://nftstorage.link/ipfs/bafybeibjsnejvh7xdfp476olxob7unqkqqegryldr3w4glqprh6pzvwfue",
+        "https://nftstorage.link/ipfs/bafybeibjsnejvh7xdfp476olxob7unqkqqegryldr3w4glqprh6pzvwfue",
+        "https://nftstorage.link/ipfs/bafybeibjsnejvh7xdfp476olxob7unqkqqegryldr3w4glqprh6pzvwfue",
+        "https://nftstorage.link/ipfs/bafybeibjsnejvh7xdfp476olxob7unqkqqegryldr3w4glqprh6pzvwfue",
+        "https://nftstorage.link/ipfs/bafybeibjsnejvh7xdfp476olxob7unqkqqegryldr3w4glqprh6pzvwfue",
+        "https://nftstorage.link/ipfs/bafybeibjsnejvh7xdfp476olxob7unqkqqegryldr3w4glqprh6pzvwfue"
+      ],
+      "techstack": ["flutter", "reactjs", "mongodb", "nodejs"],
+      "content": [
+        {
+          "title": "A Square Go Karting",
+          "description": "A Square (Go Karting) is an adventurous theme park for youngsters & children with a play arena. A Square (Go Karting) is an adventurous theme park for youngsters & children with a play arena. A Square (Go Karting) is an adventurous theme park for youngsters & children with a play arena. A Square (Go Karting) is an adventurous theme park for youngsters & children with a play arena."
+        },
+        {
+          "title": "A Square Go Karting",
+          "description": "A Square (Go Karting) is an adventurous theme park for youngsters & children with a play arena."
+        },
+        {
+          "title": "A Square Go Karting",
+          "description": "A Square (Go Karting) is an adventurous theme park for youngsters & children with a play arena. A Square (Go Karting) is an adventurous theme park for youngsters & children with a play arena. A Square (Go Karting) is an adventurous theme park for youngsters & children with a play arena. A Square (Go Karting) is an adventurous theme park for youngsters & children with a play arena."
+        }
+      ],
+      "links": {
+        "website": "https://www.schemaxtech.com",
+        "android": "https://play.google.com/store/apps/details?id=com.asquaregokarting",
+        "ios": "https://play.google.com/store/apps/details?id=com.asquaregokarting"
+      }
+    }
   },
   {
     "description": "Recruit high intent patients or participants through digital channels and nurture them through our software automation platform while keeping the empathetic human touch intact.",
