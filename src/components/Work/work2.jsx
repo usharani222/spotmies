@@ -17,6 +17,10 @@ const PortfolioSection = () => {
     setFilterWork(worksJson);
   };
 
+  const redirectToRepository = (url) => {
+    window.open(url, "_blank");
+  };
+
   return (
     <div className="w-[100vw] bg-white" id="portfolio">
       <section className="bg-white py-12 m-auto w-[90%] md:block hidden">
@@ -48,21 +52,26 @@ const PortfolioSection = () => {
                       <p className="opacity-70 text-white text-sm onHoverShow text-justify pt-4">
                         {industry.description}
                       </p>
-                      <div className="flex flex-row items-center justify-between w-[30%] absolute bottom-[20px] right-[30px] onHoverShow">
-                        <AiOutlineEye
-                          size="2.5rem"
-                          color="white"
-                          className="cursor-pointer"
-                        />
-                        <AiOutlineGithub
-                          size="2.1rem"
-                          color="white"
-                          className="cursor-pointer"
-                        />
+                      <div className="flex flex-row items-center absolute bottom-[20px] right-[30px] onHoverShow">
+                        {industry?.overview && (
+                          <AiOutlineEye
+                            size="2.5rem"
+                           
+                            className="cursor-pointer mr-6 hover:text-primary text-white"
+                          />
+                        )}
+                        {industry?.gitHub && (
+                          <AiOutlineGithub
+                            size="2.1rem"
+                            className="cursor-pointer mr-6 hover:text-primary text-white"
+                            onClick={() =>
+                              redirectToRepository(industry.gitHub)
+                            }
+                          />
+                        )}
                         <MdOpenInNew
                           size="2rem"
-                          color="white"
-                          className="cursor-pointer"
+                          className="cursor-pointer hover:text-primary text-white"
                           onClick={() => {
                             if (industry?.completed) {
                               return window.open(
