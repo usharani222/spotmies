@@ -51,7 +51,7 @@ const LandingSlide = () => {
       </div>
 
       <div className="absolute z-10 text-center text-white w-[70%] animated">
-        <h1 className="text-3xl md:text-4xl lg:text-6xl gil-bold mb-4 text-left w-full md:w-[70%] opacity-85 animated">
+        <h1 className="text-3xl md:text-6xl lg:text-7xl gil-bold mb-4 text-left w-full md:w-[70%] opacity-85 animated">
           Innovative solutions to stay ahead of the competition
         </h1>
         <p className="text-sm md:text-lg lg:text-md mb-8 text-left opacity-70 w-full md:w-[60%] animated">
