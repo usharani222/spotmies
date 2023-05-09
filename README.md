@@ -87,7 +87,7 @@ The project has the following dev dependencies:
 
 ## License
 
-This project is licensed under the Apache 2.0 License. See the `LICENSE` file for more information.
+This project is licensed under the BSD 3-Clause License. See the `LICENSE` file for more information.
 
 
 
