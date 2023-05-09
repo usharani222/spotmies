@@ -1,9 +1,9 @@
 # Spotmies Website
 <div style="display:flex" align="center">
-<img src="https://user-images.githubusercontent.com/90003260/236407922-eac073a6-526b-42ed-a069-557d37479230.jpeg" width="500" height="500">
-<img src="https://user-images.githubusercontent.com/90003260/236407973-323ee5ef-ae13-4ee4-9d11-e3e0c429dd42.jpeg" width="500" height="500">
-<img src="https://user-images.githubusercontent.com/90003260/236408112-b75a790b-5973-42a5-94df-79247e92a77a.jpeg" width="500" height="500">
-<img src="https://user-images.githubusercontent.com/90003260/237032293-9ea8dd35-c8a9-4ac2-a20b-71202773db71.jpeg" width="500" height="500">
+<img src="https://user-images.githubusercontent.com/90003260/236407922-eac073a6-526b-42ed-a069-557d37479230.jpeg" width="300" height="300">
+<img src="https://user-images.githubusercontent.com/90003260/236407973-323ee5ef-ae13-4ee4-9d11-e3e0c429dd42.jpeg" width="300" height="300">
+<img src="https://user-images.githubusercontent.com/90003260/236408112-b75a790b-5973-42a5-94df-79247e92a77a.jpeg" width="300" height="300">
+<img src="https://user-images.githubusercontent.com/90003260/237032293-9ea8dd35-c8a9-4ac2-a20b-71202773db71.jpeg" width="300" height="300">
 
 </div>
 
