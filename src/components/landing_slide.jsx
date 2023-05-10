@@ -88,7 +88,7 @@ const LandingSlide = () => {
   );
 };
 
-export const Navbarr = () => {
+export const Navbarr = ({ noScrollEffect }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [toggleNavbar, setToggleNavbar] = useState(false);
 
@@ -111,8 +111,15 @@ export const Navbarr = () => {
   useEffect(() => {
     const navigationBar = document.getElementById("navigationBar");
     // navigation bar color change when it's reach to 100vh from top
+    if (noScrollEffect) {
+      navigationBar.classList.remove("bg-transparent");
+      navigationBar.classList.add("opacity-90");
+      navigationBar.classList.add("bg-primary2");
+      navigationBar.classList.add("shadow-sm");
+      return;
+    }
     window.addEventListener("scroll", () => {
-      if (window.pageYOffset > window.innerHeight - 80) {
+      if (window.pageYOffset > window.innerHeight - 80 && !noScrollEffect) {
         navigationBar.classList.remove("bg-transparent");
         navigationBar.classList.add("opacity-90");
         navigationBar.classList.add("bg-primary2");
