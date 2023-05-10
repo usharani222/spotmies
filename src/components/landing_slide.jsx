@@ -51,10 +51,10 @@ const LandingSlide = () => {
       </div>
 
       <div className="absolute z-10 text-center text-white w-[70%] animated">
-        <h1 className="text-3xl md:text-6xl lg:text-7xl gil-bold mb-4 text-left w-full md:w-[70%] opacity-85 animated">
+        <h1 className="text-3xl md:text-6xl lg:text-8xl gil-bold mb-4 text-left w-full md:w-[70%] opacity-85 animated">
           Innovative solutions to stay ahead of the competition
         </h1>
-        <p className="text-sm md:text-lg lg:text-md mb-8 text-left opacity-70 w-full md:w-[60%] animated">
+        <p className="text-sm md:text-lg lg:text-2xl mb-8 text-left opacity-70 w-full md:w-[60%] lg:w-[70%] animated">
           Professional services that deliver exceptional quality, reliability,
           and customer service to exceed your expectations.
         </p>
@@ -138,7 +138,7 @@ export const Navbarr = () => {
           <img
             src={toggleNavbar ? "/spotmies_banner.png" : "/spotmies_banner.png"}
             alt="Logo"
-            className=" h-6 md:h-10 cursor-pointer"
+            className=" h-6 md:h-10 lg:h-16 cursor-pointer"
           />
         </div>
         <div className="flex items-center">
