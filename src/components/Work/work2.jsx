@@ -97,8 +97,8 @@ const PortfolioSection = () => {
                             size="2.5rem"
                             className="cursor-pointer mr-6 hover:text-primary text-white"
                             onClick={() => {
-                              setCurrentIndex(index);
-                              setShowpopup(true);
+                              // setCurrentIndex(index);
+                              // setShowpopup(true);
                             }}
                           />
                         )}
@@ -182,8 +182,8 @@ const PortfolioSection = () => {
                         color="white"
                         className="cursor-pointer"
                         onClick={() => {
-                          setCurrentIndex(index);
-                          setShowpopup(true);
+                          // setCurrentIndex(index);
+                          // setShowpopup(true);
                         }}
                       />
                       <AiOutlineGithub
