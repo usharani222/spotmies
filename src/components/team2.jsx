@@ -42,7 +42,7 @@ export default function TeamSlide2() {
         linkedin: "https://www.linkedin.com/in/venkat-p-79b366119",
       },
     },
- 
+
     {
       image:
         "https://raw.githubusercontent.com/pdkkg/images/858b0957133c26f8c629524cb4d7074eb66f535f/hemanth.jpg",
@@ -101,12 +101,12 @@ export default function TeamSlide2() {
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
-      breakpoint: { max: 4000, min: 3000 },
+      breakpoint: { max: 4000, min: 1900 },
       items: 4,
-      partialVisibilityGutter: 0,
+      partialVisibilityGutter: 60,
     },
     desktop: {
-      breakpoint: { max: 3000, min: 1024 },
+      breakpoint: { max: 1899, min: 1024 },
       items: 3,
       partialVisibilityGutter: 80,
     },

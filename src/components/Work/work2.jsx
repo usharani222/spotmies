@@ -65,12 +65,12 @@ const PortfolioSection = () => {
       <section className="bg-white py-12 m-auto w-[90%] md:block hidden">
         <div className="container mx-auto w-full">
           <Fade bottom>
-            <h2 className="text-5xl gil-bold text-text_color2 mb-8 ml-4">
+            <h2 className="text-5xl lg:text-7xl gil-bold text-text_color2 mb-8 ml-4 ">
               Our portfolio works
             </h2>
           </Fade>
           <Fade bottom>
-            <p className="text-sm md:text-lg text-text_color2 opacity-60 text-justify ml-4 w-[60%]">
+            <p className="text-sm md:text-lg lg:text-2xl text-text_color2 opacity-60 text-justify ml-4 w-[60%] p-2">
               Our expertise across various industries will help you to bridge
               the gaps with our innovative solutions
             </p>
@@ -97,8 +97,8 @@ const PortfolioSection = () => {
                             size="2.5rem"
                             className="cursor-pointer mr-6 hover:text-primary text-white"
                             onClick={() => {
-                              setCurrentIndex(index);
-                              setShowpopup(true);
+                              // setCurrentIndex(index);
+                              // setShowpopup(true);
                             }}
                           />
                         )}
@@ -156,9 +156,8 @@ const PortfolioSection = () => {
             Our portfolio works
           </h2>
           <p className="text-text_color2 text-sm opacity-60 text-justify mx-4 md:ml-0 md:w-2/3">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-            voluptas, quod, quia, voluptate quae voluptates quibusdam
-            voluptatibus quos quas quidem quia voluptates quibusdam
+            Our expertise across various industries will help you to bridge the
+            gaps with our innovative solutions
           </p>
           <div className="flex flex-wrap mt-8">
             {filterWork.map((industry, index) => (
@@ -183,8 +182,8 @@ const PortfolioSection = () => {
                         color="white"
                         className="cursor-pointer"
                         onClick={() => {
-                          setCurrentIndex(index);
-                          setShowpopup(true);
+                          // setCurrentIndex(index);
+                          // setShowpopup(true);
                         }}
                       />
                       <AiOutlineGithub
@@ -260,7 +259,7 @@ export function ProjectDetails({ index, showMaximize }) {
             size="1.5rem"
             className="text-[#1D1D1D] hover:text-primary cursor-pointer hover:scale-110 transition-all duration-700 ease-in-out"
             onClick={() => {
-              window.open(`/projectdetails/${index}`,"_self");
+              window.open(`/projectdetails/${index}`, "_self");
               // open in the same tab
             }}
           />
