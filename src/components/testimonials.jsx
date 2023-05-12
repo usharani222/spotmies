@@ -5,6 +5,36 @@ import Carousel from "react-multi-carousel";
 import { clients, testimonials } from "@/constants";
 
 export default function Testimonials() {
+  function timestampToMonthsAgo(timestam) {
+    const timestamp = parseInt(timestam);
+    const currentDate = new Date();
+    const targetDate = new Date(timestamp);
+
+    const diffInMilliseconds = currentDate - targetDate;
+    const diffInMonths = diffInMilliseconds / (1000 * 60 * 60 * 24 * 30.44); // Approximate average month length
+
+    const monthsAgo = Math.floor(diffInMonths);
+    console.log(monthsAgo);
+    if (monthsAgo < 12) {
+      if (monthsAgo === 0) {
+        return "Few days ago";
+      }
+      if (monthsAgo === 1) {
+        return "1 month ago";
+      } else {
+        return monthsAgo + " months ago";
+      }
+    } else {
+      const diffInYears = Math.floor(diffInMonths / 12);
+
+      if (diffInYears === 1) {
+        return "1 year ago";
+      } else {
+        return diffInYears + " years ago";
+      }
+    }
+  }
+
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
@@ -37,7 +67,11 @@ export default function Testimonials() {
       <div className="flex flex-wrap w-[100%] items-center justify-center"></div>
       <Carousel responsive={responsive} partialVisible={true}>
         {testimonials.map((testimonial, index) =>
-          testimonialCard({ ...testimonial, key: index })
+          testimonialCard({
+            ...testimonial,
+            key: index,
+            when: testimonial.timeStamp,
+          })
         )}
       </Carousel>
 
@@ -92,7 +126,7 @@ export default function Testimonials() {
             </div>
           </div>
           <p className="text-primary2 opacity-50 text-[9px] md:text-xs">
-            {when}
+            {timestampToMonthsAgo(when)}
           </p>
         </div>
         {/* </div> */}
