@@ -399,6 +399,7 @@ export const socialMediaRedirect = (mediaName) => {
   const telegram = "https://t.me/";
   const youtube = "https://www.youtube.com/@spotmies4765";
   const facebook = "https://www.facebook.com/";
+  
   const linkedin = "https://www.linkedin.com/company/spotmies";
   const github = "https://github.com/spotmies";
   const behance = "https://www.behance.net/spotmiesllp";
