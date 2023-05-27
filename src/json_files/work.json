@@ -466,6 +466,241 @@
       }
     }
   },
+  {
+    "description": "CGRUM is QR Scanning application with reward system. It is useful in the traditional television marketing for best results.",
+
+    "image": "https://github.com/pdkkg/images/blob/68dfe13aec4879d52a692b7ce44bcd586b02c2b1/10_dashboard.png?raw=true",
+    "projectLink": "https://play.google.com/store/apps/details?id=com.cgrum",
+    "tags": ["Web 2"],
+    "title": " CGRUM",
+    "projectName": "cgrum",
+    "completed": true,
+    "overview": {
+      "images": [
+        "https://github.com/pdkkg/images/blob/68dfe13aec4879d52a692b7ce44bcd586b02c2b1/10_dashboard.png?raw=true",
+        "https://raw.githubusercontent.com/spotmies/images/main/cgrum/04b97e170635643.6461df0a67acf.png",
+        "https://raw.githubusercontent.com/spotmies/images/main/cgrum/0305f8170635643.6461df0a651ad.png",
+        "https://raw.githubusercontent.com/spotmies/images/main/cgrum/295857170635643.6461df0a63b8c.png"
+      ],
+      "techstack": ["figma", "flutter", "nodejs", "aws"],
+      "content": [
+        {
+          "image": "https://raw.githubusercontent.com/spotmies/images/main/cgrum/04b97e170635643.6461df0a67acf.png",
+          "title": "CGRUM Project Description",
+          "description": " CGRUM is an innovative QR scanning application with a rewarding system designed to captivate and engage customers by gamifying their digital media experiences. By offering tangible or intangible benefits, CGRUM aims to increase customer interest and attraction in traditional television marketing. CGRUM is an innovative QR scanning application with a rewarding system designed to captivate and engage customers by gamifying their digital media experiences. By offering tangible or intangible benefits, CGRUM aims to increase customer interest and attraction in traditional television marketing."
+        },
+        {
+          "title": " Key Features:",
+          "description": "1. QR Scanning: CGRUM enables users to scan QR codes embedded within advertisements on television or in movie theatres. 2. Reward System: Users who successfully scan the QR codes through the CGRUM app become eligible for exciting offers, rewards, and cashback. 3. Increased Audience Engagement: By incentivizing users to scan QR codes, CGRUM encourages viewers to watch more advertisements, leading to an increased presence on screens for companies and television channels. 4. Tangible Benefits: CGRUM transforms the viewing experience by providing users with tangible benefits, making the process of watching ads enjoyable and rewarding."
+        },
+        {
+          "image": "https://raw.githubusercontent.com/spotmies/images/main/cgrum/0305f8170635643.6461df0a651ad.png",
+          "title": "How It Works:",
+          "description": "1. Advertisements displayed on a television or in movie theatres contain randomly generated QR codes placed strategically within the ad. 2. Users can scan these QR codes using the CGRUM app. 3. Upon successful scanning, eligible users receive exclusive offers, rewards, and cashback. 4. This incentivizes users to actively engage with advertisements and increases the chances of them watching more ads to gain additional rewards. 5. As a result, companies have a greater opportunity to showcase their ads to a receptive audience, while television channels attract more clients due to the enhanced effectiveness of their advertising platform."
+        },
+        {
+          "title": "Challenges Faced and Overcome:",
+          "description": "During the development of CGRUM, we encountered several challenges. One of the significant hurdles was generating QR codes in a short amount of time. However, our dedicated team successfully resolved this issue, ensuring the seamless and rapid generation of QR codes. Additionally, scanning QR codes within a tight timeframe and issuing rewards to eligible users presented another challenge. Through meticulous optimization and careful consideration, we overcame these obstacles, guaranteeing a smooth and rewarding user experience."
+        },
+        {
+          "image": "https://raw.githubusercontent.com/spotmies/images/main/cgrum/295857170635643.6461df0a63b8c.png",
+          "title": " Conclusion: ",
+          "description": " CGRUM represents a groundbreaking approach to digital media experiences. By leveraging QR scanning and a reward system, CGRUM not only captivates viewers but also provides valuable benefits to users and opportunities for companies and television channels. This application redefines the relationship between advertisers and viewers, creating a win-win situation for all parties involved. Join us in revolutionizing the way advertisements are consumed and appreciated with CGRUM."
+        }
+      ],
+      "links": {
+        "website": "https://www.schemaxtech.com",
+        "android": "https://play.google.com/store/apps/details?id=com.asquaregokarting",
+        "ios": "https://play.google.com/store/apps/details?id=com.asquaregokarting"
+      }
+    }
+  },
+
+  {
+    "description": "Crypto MX is a cutting-edge crypto trading application that brings the world of digital currencies right to your fingertips. With real-time data and comprehensive market insights, Crypto MX empowers you to stay informed and make informed trading decisions.",
+
+    "image": "https://github.com/pdkkg/images/blob/68dfe13aec4879d52a692b7ce44bcd586b02c2b1/11_crypto.png?raw=true",
+    "projectLink": "https://google.com",
+    "tags": ["Web 3"],
+    "title": "Crypto MX",
+    "projectName": "crypto-mx",
+    "completed": false,
+    "overview": {
+      "images": [
+        "https://github.com/pdkkg/images/blob/68dfe13aec4879d52a692b7ce44bcd586b02c2b1/11_crypto.png?raw=true"
+      ],
+      "techstack": ["flutter", "aws"],
+      "content": [
+        {
+          "title": "Project Description",
+          "description": "Crypto MX is a cutting-edge crypto trading application that brings the world of digital currencies right to your fingertips. With real-time data and comprehensive market insights, Crypto MX empowers you to stay informed and make informed trading decisions."
+        },
+        {
+          "title": " Explore the World of Cryptocurrencies",
+          "description": " Crypto MX provides a seamless and user-friendly interface where you can access the latest information on various cryptocurrencies. Whether you're a seasoned trader or just starting out, Crypto MX is designed to cater to your needs."
+        },
+        {
+          "title": "Stay Updated with Live Prices",
+          "description": " With the integration of over 15 trusted APIs, Crypto MX ensures that you have access to accurate and up-to-date prices of all major cryptocurrencies. From Bitcoin to Ethereum, Litecoin to Ripple, and beyond, you can monitor the fluctuations and trends in real time."
+        },
+        {
+          "title": "Charting Tools for Informed Decisions",
+          "description": "Make informed trading decisions with the help of Crypto MX's advanced charting tools. Analyze historical data, identify patterns, and gain insights into market trends. With these powerful tools at your disposal, you can plan your trading strategies with confidence."
+        },
+        {
+          "title": "Convenient and User-Friendly",
+          "description": " Crypto MX offers a user-friendly interface that is intuitive and easy to navigate. Whether you're on a mobile device or desktop, you can access your favourite features and monitor the crypto market on the go."
+        },
+        {
+          "title": "Uncompromised Security ",
+          "description": " We take the security of your data seriously. Crypto MX prioritizes the protection of your personal information and implements robust security measures to ensure a safe trading environment. Your privacy and peace of mind are our top priorities."
+        },
+        {
+          "title": "Join the Crypto Revolution",
+          "description": " Whether you're an experienced trader or a crypto enthusiast, Crypto MX is the perfect companion for your crypto trading journey. Stay ahead of the game, track prices, and seize profitable opportunities in the ever-evolving world of cryptocurrencies. Please note that Crypto MX currently focuses on providing real-time data and market insights. Wallet integration is not available within the application. This ensures a streamlined and hassle-free trading experience without the need for wallet management. Start your crypto trading adventure with Crypto MX today and unlock the potential of digital currencies like never before. Get ready to dive into the exciting world of crypto trading and seize opportunities that can shape your financial future."
+        }
+      ],
+      "links": {
+        "website": "https://www.schemaxtech.com",
+        "android": "https://play.google.com/store/apps/details?id=com.asquaregokarting",
+        "ios": "https://play.google.com/store/apps/details?id=com.asquaregokarting"
+      }
+    }
+  },
+  {
+    "description": "Vihaan Electrix is a comprehensive e-commerce platform developed using Flutter, React.js, and Node.js. It serves as an efficient electric bike booking platform that enables users to browse and book electric vehicles. Additionally, the platform provides access to service stations for maintenance and repair services. Vihaan Electrix focuses on simplifying the transition to electric mobility by addressing various facets of electric vehicle ownership.",
+
+    "image": "https://raw.githubusercontent.com/spotmies/images/main/vihaan%20electrix/d4490a169035379.6446288349b24.png",
+    "projectLink": "https://vihaanelectrix.in",
+    "tags": ["Web 2"],
+    "title": "Vihaan Electrix",
+    "projectName": "vihaan-electrix",
+    "completed": true,
+    "overview": {
+      "images": [
+        "https://raw.githubusercontent.com/spotmies/images/main/vihaan%20electrix/d4490a169035379.6446288349b24.png",
+        "https://github.com/pdkkg/images/blob/68dfe13aec4879d52a692b7ce44bcd586b02c2b1/13_vihan.png?raw=true",
+        "https://raw.githubusercontent.com/spotmies/images/main/vihaan%20electrix/7afc2a169035379.644628834b379.png",
+        "https://raw.githubusercontent.com/spotmies/images/main/vihaan%20electrix/ef0cca169035379.644628834c0a4.png",
+        "https://raw.githubusercontent.com/spotmies/images/main/vihaan%20electrix/8bc55d169035379.644628834a6f8.png"
+      ],
+      "techstack": [
+        "adobexd",
+        "flutter",
+        "reactjs",
+        "firebase",
+        "mongodb",
+        "nodejs"
+      ],
+      "content": [
+        {
+          "image": "https://github.com/pdkkg/images/blob/68dfe13aec4879d52a692b7ce44bcd586b02c2b1/13_vihan.png?raw=true",
+          "title": "Project Description",
+          "description": " Vihaan Electrix is a comprehensive e-commerce platform developed using Flutter, React.js, and Node.js. It serves as an efficient electric bike booking platform that enables users to browse and book electric vehicles. Additionally, the platform provides access to service stations for maintenance and repair services. Vihaan Electrix focuses on simplifying the transition to electric mobility by addressing various facets of electric vehicle ownership."
+        },
+        {
+          "image": "https://raw.githubusercontent.com/spotmies/images/main/vihaan%20electrix/7afc2a169035379.644628834b379.png",
+          "title": " Mission:",
+          "description": "At Vihaan Electrix, our mission is to accelerate the global shift towards e-mobility. We strive to provide standardized care solutions that effectively address the multifaceted challenges associated with electric vehicle usage. By offering a user-friendly platform, reliable service centres, and an extensive vehicle catalogue, we aim to empower individuals to embrace sustainable transportation solutions."
+        },
+        {
+          "image": "https://raw.githubusercontent.com/spotmies/images/main/vihaan%20electrix/7afc2a169035379.644628834b379.png",
+          "title": "Key Features:",
+          "description": " 1. Vehicle Booking: Our platform enables users to easily book electric bikes, facilitating a seamless and convenient booking process. With a comprehensive catalogue featuring a wide range of electric vehicles, users can explore various models, specifications, and pricing options to find the perfect fit for their needs. 2. Service Stations: Vihaan Electrix ensures that users can access authorized service centres for their electric vehicles. These service stations are equipped with skilled technicians and state-of-the-art facilities to provide professional maintenance and repair services. Our goal is to ensure that electric vehicle owners can enjoy a reliable and hassle-free ownership experience 3. Charging Stations: To support the growing electric vehicle ecosystem, Vihaan Electrix offers a comprehensive list of nearby charging stations. Users can easily locate these stations on the platform, providing them with convenient access to charging infrastructure. This feature encourages the adoption of electric vehicles by addressing range anxiety concerns and facilitating long-distance travel. 4. Test Drives: We understand the importance of test drives in the decision-making process. Therefore, Vihaan Electrix allows users to schedule test drives to experience the performance, handling, and features of electric bikes firsthand. This feature instils confidence in potential buyers, helping them make informed decisions about their electric vehicle purchases. 5.Vehicle Catalog: Our platform showcases a diverse range of electric vehicles sourced from renowned manufacturers such as PureEV, BOOM, and Bgauss. Users can explore detailed information about each vehicle, including specifications, features, and pricing. This comprehensive catalogue ensures that users have access to a wide selection of high-quality electric bikes. 6.Mobile Application & Website: Vihaan Electrix offers a visually appealing and user-friendly mobile application, providing a seamless and intuitive experience for users on the go. Additionally, we have designed and developed a responsive website that serves as an online platform for users to explore, learn about, and engage with Vihaan Electrix."
+        },
+        {
+          "title": "Tech Stack:",
+          "description": "1. Mobile Application: The mobile application has been developed using the Flutter framework, allowing for cross-platform compatibility and ensuring a consistent user experience across both iOS and Android devices. Flutter's rich UI capabilities and performance optimization contribute to a smooth and engaging user interface. 2. Backend: Our robust backend infrastructure is powered by Node.js, a scalable and efficient JavaScript runtime. The backend utilizes MongoDB as the database management system, ensuring data integrity and flexibility for future enhancements. 3. Hosting: The entire project is hosted on the Heroku platform, providing a reliable and scalable hosting solution. This ensures optimal performance, availability, and seamless deployment of updates. 4. Animations: Beautifully crafted animations have been integrated into the mobile application, enhancing the user interface and delivering an engaging experience. The animations add visual appeal, improve user interaction, and create a sense of dynamism within the application."
+        },
+        {
+          "image": "https://raw.githubusercontent.com/spotmies/images/main/vihaan%20electrix/ef0cca169035379.644628834c0a4.png",
+          "title": " Challenges:",
+          "description": " 1. Scalable Database Structure: Developing a scalable database structure capable of accommodating the platform's expanding user base and efficiently managing large volumes of data posed a significant challenge. We implemented an optimized database design, leveraging the flexibility and scalability of MongoDB to ensure seamless performance as the platform grows. 2.Mobile Application Animations: Incorporating visually appealing animations into the mobile application required meticulous attention to detail and careful optimization. Our team of skilled designers and developers worked collaboratively to create fluid and responsive animations, enhancing the overall user experience while maintaining optimal performance on various devices. Please note that while the project has been successfully completed and delivered to the client, the official launch on app stores is yet to take place. Vihaan Electrix aims to revolutionize the electric vehicle industry by providing a reliable and user-centric platform that promotes sustainable transportation options."
+        },
+        {
+          "image": "https://raw.githubusercontent.com/spotmies/images/main/vihaan%20electrix/8bc55d169035379.644628834a6f8.png"
+        }
+      ],
+      "links": {
+        "website": "https://www.schemaxtech.com",
+        "android": "https://play.google.com/store/apps/details?id=com.asquaregokarting",
+        "ios": "https://play.google.com/store/apps/details?id=com.asquaregokarting"
+      }
+    }
+  },
+  {
+    "description": "Bill Ezy is an innovative financial management application designed to help individuals overcome common challenges associated with managing finances and sticking to a budget. Developed as a project for a hackathon in our incubation center, Bill Ezy aims to provide practical solutions to address various financial concerns and promote better money management.",
+
+    "image": "https://raw.githubusercontent.com/spotmies/images/main/bill%20ezy/e2653c169912127.6454bbb7b5f23.png",
+    "projectLink": "https://vihaanelectrix.in",
+    "tags": ["Web 2"],
+    "title": "Bill Ezy - Simplify Your Finances",
+    "projectName": "bill-ezy",
+    "completed": false,
+    "overview": {
+      "images": [
+        "https://raw.githubusercontent.com/spotmies/images/main/bill%20ezy/e2653c169912127.6454bbb7b5f23.png",
+        "https://raw.githubusercontent.com/spotmies/images/main/bill%20ezy/d0750f169912127.6454bbb7b9a8a.png",
+        "https://raw.githubusercontent.com/spotmies/images/main/bill%20ezy/bc0a14169912127.6454bbb7bb407.png",
+        "https://raw.githubusercontent.com/spotmies/images/main/bill%20ezy/ef658f169912127.6454bbb7b8b60.png",
+        "https://raw.githubusercontent.com/spotmies/images/main/bill%20ezy/b61b76169912127.6454bbb7b7a58.png"
+      ],
+      "techstack": ["figma","adobexd"],
+      "content": [
+        {
+          "image": "https://raw.githubusercontent.com/spotmies/images/main/bill%20ezy/d0750f169912127.6454bbb7b9a8a.png",
+          "title": "Project Description",
+          "description": "Bill Ezy is an innovative financial management application designed to help individuals overcome common challenges associated with managing finances and sticking to a budget. Developed as a project for a hackathon in our incubation center, Bill Ezy aims to provide practical solutions to address various financial concerns and promote better money management."
+        },
+        {
+          "title": "Problem Statement:"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/spotmies/images/main/bill%20ezy/bc0a14169912127.6454bbb7bb407.png",
+          "title": "Overspending without Awareness",
+          "description": "Many individuals struggle with overspending on certain categories without realizing it. This often leads to financial instability and difficulty in meeting other essential expenses."
+        },
+        {
+          "title": "Financial Stress and Anxiety",
+          "description": "Poor money management can cause significant financial stress and anxiety. People may find themselves constantly worried about their finances and uncertain about how to improve their situation."
+        },
+        {
+          "title": "Missed Payments and Emergency Savings",
+          "description": "Forgetting to pay bills on time or failing to save for emergencies can lead to additional financial burdens, late fees, and a lack of financial security."
+        },
+        {
+          "image": "https://raw.githubusercontent.com/spotmies/images/main/bill%20ezy/ef658f169912127.6454bbb7b8b60.png",
+          "title": "Key Solutions:"
+        },
+        {
+          "title": "Personalized Expenditure Suggestions",
+          "description": "Bill Ezy provides personalized expenditure suggestions based on individual spending patterns and financial goals. This feature helps users make informed decisions and optimize their expenses."
+        },
+        {
+          "title": "Proper Financial Management Framework",
+          "description": "The application offers a comprehensive financial management framework, enabling users to track income, expenses, and savings in a structured and organized manner."
+        },
+        {
+          "title": "Set and Track Financial Goals",
+          "description": "Bill Ezy allows users to set and track financial goals, such as saving for a vacation or building an emergency fund. This feature provides a clear roadmap towards achieving their objectives."
+        },
+        {
+          "title": "Real-Time Spending Information",
+          "description": "Users can access real-time spending information through Bill Ezy, allowing them to monitor their expenses, identify areas of improvement, and make necessary adjustments to stay within their budget."
+        },
+        {
+          "image": "https://raw.githubusercontent.com/spotmies/images/main/bill%20ezy/b61b76169912127.6454bbb7b7a58.png",
+          "title": "Conclusion",
+          "description": "Please note that the Bill Ezy project was developed solely for the purpose of participating in a hackathon. The application was designed using Figma as a prototype to showcase the concept and potential functionality. It is not currently a client project but demonstrates the innovative ideas and capabilities of our team."
+        }
+      ],
+      "links": {
+        "website": "https://www.schemaxtech.com",
+        "android": "https://play.google.com/store/apps/details?id=com.asquaregokarting",
+        "ios": "https://play.google.com/store/apps/details?id=com.asquaregokarting"
+      }
+    }
+  },
 
   {
     "description": "Experience the extraordinary world of Indie Skull Syndicate, where creativity, uniqueness, and digital ownership merge into a captivating journey. Join Zoople and 2,500 other wanderers in this groundbreaking NFT project that blurs the boundaries between humans and phantoms. Are you ready to become a member of the Syndicate",
@@ -530,6 +765,125 @@
           "image": "https://raw.githubusercontent.com/spotmies/images/main/Grinch%20nft/664197169113745.6447680d9b8a2.png",
           "title": "The challenge we faced during the project ",
           "description": " One of the main challenges faced during the development of this project was creating an interactive website with dynamic designs and skull images. The team had to work hard to arrange the half-human, half-skull images together and create engaging animations for the website. Despite these challenges, the team successfully created a one-of-a-kind NFT project that stands out in the ever-growing NFT market.The Indie Skull Syndicate NFT project is now featured on OpenSea, where collectors can purchase and trade these unique NFTs. Join the Syndicate and become a part of this exciting and exclusive NFT collection."
+        }
+      ],
+      "links": {
+        "website": "https://www.schemaxtech.com",
+        "android": "https://play.google.com/store/apps/details?id=com.asquaregokarting",
+        "ios": "https://play.google.com/store/apps/details?id=com.asquaregokarting"
+      }
+    }
+  },
+  {
+    "description": "Mad Angles is an extraordinary NFT (Non-Fungible Token) project that combines the allure of triangular art with the captivating expressions of eyes, mouth, and eyebrows. It is a unique and visually stunning collection of digital assets that showcases the creative fusion of geometry and emotions. Although the project has been fully developed, encompassing UI design, artwork, and smart contract deployment on the Ethereum network, it awaits the opportunity to be launched into the vibrant NFT marketplace.",
+    "image": "https://raw.githubusercontent.com/spotmies/images/main/madangles/59ce1f170633731.6461d796dec6d.png",
+    "projectLink": "https://indieskullsyndicate.xyz",
+    "tags": ["Web 3", "NFT"],
+    "title": "Mad Angles",
+    "projectName": "mad-angles",
+    "glimpse": "NFT based project",
+    "completed": false,
+    "overview": {
+      "images": [
+        "https://raw.githubusercontent.com/spotmies/images/main/madangles/59ce1f170633731.6461d796dec6d.png",
+        "https://raw.githubusercontent.com/spotmies/images/main/madangles/e472d0170633731.6461d796ddf45.png",
+        "https://raw.githubusercontent.com/spotmies/images/main/madangles/bbf1ac170633731.6461da2666121.png"
+      ],
+      "techstack": [
+        "nextjs",
+        "tailwind",
+        "vercel",
+        "firebase",
+        "metamask",
+        "solidity",
+        "ethereum"
+      ],
+      "content": [
+        {
+          "title": "Project Description",
+          "description": "Mad Angles is an extraordinary NFT (Non-Fungible Token) project that combines the allure of triangular art with the captivating expressions of eyes, mouth, and eyebrows. It is a unique and visually stunning collection of digital assets that showcases the creative fusion of geometry and emotions. Although the project has been fully developed, encompassing UI design, artwork, and smart contract deployment on the Ethereum network, it awaits the opportunity to be launched into the vibrant NFT marketplace."
+        },
+        {
+          "title": "Triangular Art with Expressive Features:",
+          "description": "Mad Angles introduces a captivating art style where each piece is intricately crafted in the form of a triangle. These triangular artworks come to life with eyes, a mouth, and expressive eyebrows, conveying a wide range of emotions, moods, and stories. The combination of geometric precision and emotional depth makes Mad Angles a truly mesmerizing collection that pushes the boundaries of artistic expression within the NFT space."
+        },
+        {
+          "image": "https://raw.githubusercontent.com/spotmies/images/main/madangles/e472d0170633731.6461d796ddf45.png",
+          "title": "Design, Art, and Development",
+
+          "description": "The Mad Angles project encompasses every aspect of creating a compelling NFT collection. Our talented team of designers meticulously crafted the user interface (UI) to provide an immersive and seamless experience for collectors and enthusiasts. The artwork itself showcases the skilled fusion of geometric shapes and expressive facial features, resulting in visually striking and emotionally evocative NFTs. Moreover, we have deployed the project's smart contract on the Ethereum network, ensuring transparency, security, and authenticity for each Mad Ngle token."
+        },
+        {
+          "title": "Awaiting the Perfect Launch:",
+          "description": "Although the Mad Angles project has been fully realized, the decision to launch the collection lies with the client. While the project remains unreleased, the team has poured their creativity, expertise, and passion into crafting an exceptional NFT collection. The triangular artworks of Mad Angles are eagerly awaiting their debut in the NFT marketplace, where collectors and art enthusiasts can appreciate their unique aesthetic and immerse themselves in the world of geometric emotions."
+        },
+        {
+          "title": "Deployed on the Ethereum Network:",
+          "description": "Mad Angles has embraced the power of blockchain technology by deploying its smart contract on the Ethereum network. This ensures the integrity, transparency, and decentralization of the NFT collection. By leveraging the Ethereum blockchain, Mad Angles provides a secure and immutable platform for collectors and investors to engage with these extraordinary triangular artworks, establishing a trusted and reliable ecosystem for NFT enthusiasts."
+        },
+        {
+          "image": "https://raw.githubusercontent.com/spotmies/images/main/madangles/bbf1ac170633731.6461da2666121.png",
+          "title": "Unleash the Magic of Mad Angles:",
+          "description": "Step into a world where geometric art intersects with emotive expressions. Mad Angles invites you to explore the captivating universe of triangular NFTs that transcend traditional boundaries of creativity. While the project awaits its official launch, the exceptional UI design, visually stunning artwork, and Ethereum-based smart contract integration lay the foundation for an immersive and rewarding NFT experience. Embrace the magic of Mad Angles and be part of a journey that celebrates the fusion of art, technology, and emotion."
+        }
+      ],
+      "links": {
+        "website": "https://www.schemaxtech.com",
+        "android": "https://play.google.com/store/apps/details?id=com.asquaregokarting",
+        "ios": "https://play.google.com/store/apps/details?id=com.asquaregokarting"
+      }
+    }
+  },
+
+  {
+    "description": "Reels NFT is an extraordinary digital art project that celebrates the captivating world of paper art through a collection of 1826 unique pieces. Developed as an in-house venture by our creative team, Reels NFT offers a mesmerizing assortment of intricately crafted paper artworks, waiting to be unveiled and cherished by art enthusiasts and collectors.",
+    "image": "https://raw.githubusercontent.com/spotmies/images/main/reels/45e3bd170632725.6461d3935cd00.png",
+    "projectLink": "https://indieskullsyndicate.xyz",
+    "tags": ["Web 3", "NFT"],
+    "title": "Reels NFT",
+    "projectName": "reels-nft",
+    "glimpse": "NFT based project",
+    "completed": false,
+    "overview": {
+      "images": [
+        "https://raw.githubusercontent.com/spotmies/images/main/reels/45e3bd170632725.6461d3935cd00.png",
+        "https://raw.githubusercontent.com/spotmies/images/main/reels/b3b20d170632725.6461d3935d986.png"
+      ],
+      "techstack": [
+        "nextjs",
+        "tailwind",
+        "vercel",
+        "firebase",
+        "metamask",
+        "solidity",
+        "ethereum"
+      ],
+      "content": [
+        {
+          "title": "Introduction",
+          "description": "Reels NFT is an extraordinary digital art project that celebrates the captivating world of paper art through a collection of 1826 unique pieces. Developed as an in-house venture by our creative team, Reels NFT offers a mesmerizing assortment of intricately crafted paper artworks, waiting to be unveiled and cherished by art enthusiasts and collectors."
+        },
+        {
+          "title": "Artistic Brilliance:",
+          "description": "Each artwork in the Reels NFT collection is a testament to the creative ingenuity and skillful craftsmanship of our talented artists. From delicate origami masterpieces to vibrant paper cuttings, every creation resonates with the beauty and versatility of paper as an artistic medium. The intricate details, precise folds, and vivid colors come together to form a visually stunning tapestry of paper-based art."
+        },
+        {
+          "title": "Exclusive Ownership:",
+
+          "description": "Reels NFT grants collectors the exclusive opportunity to own and showcase these remarkable paper art creations in their digital collections. Through the integration of blockchain technology, each artwork is tokenized as a unique non-fungible token (NFT), ensuring its authenticity, provenance, and scarcity. As a proud owner of a Reels NFT, you become part of a select community that appreciates the artistry and significance of these exquisite paper artworks."
+        },
+        {
+          "title": "An Unreleased Gem:",
+          "description": "Although Reels NFT has been meticulously developed and curated, we have chosen to keep it an unreleased gem, preserved exclusively within our company's private domain. This decision reflects our commitment to preserving the exclusivity and rarity of the collection, ensuring its uniqueness remains intact. While the public launch has been withheld, we invite you to explore the essence and beauty of Reels NFT through this glimpse into its captivating world."
+        },
+        {
+          "title": "Website and User Experience:",
+          "description": "To enhance the immersive experience of Reels NFT, we have crafted a bespoke website that serves as a virtual gallery. The website showcases the intricate paper art collection, offering visitors an interactive journey through the various pieces. With intuitive navigation and seamless user interface, the website serves as a digital sanctuary for art enthusiasts to immerse themselves in the enchanting world of Reels NFT."
+        },
+        {
+          "image": "https://raw.githubusercontent.com/spotmies/images/main/reels/b3b20d170632725.6461d3935d986.png",
+          "title": "The Future of Reels NFT",
+          "description": "While Reels NFT is currently not available for public acquisition, we continue to nurture its potential for future endeavors. Our commitment to preserving the artistic integrity of the collection, coupled with our vision to redefine the boundaries of digital art, inspires us to explore novel opportunities and partnerships. Stay tuned for future updates as we unfold the next chapter of Reels NFT."
         }
       ],
       "links": {
@@ -668,108 +1022,6 @@
   },
 
   {
-    "description": "CGRUM is QR Scanning application with reward system. It is useful in the traditional television marketing for best results.",
-
-    "image": "https://github.com/pdkkg/images/blob/68dfe13aec4879d52a692b7ce44bcd586b02c2b1/10_dashboard.png?raw=true",
-    "projectLink": "https://play.google.com/store/apps/details?id=com.cgrum",
-    "tags": ["Web 2"],
-    "title": " CGRUM",
-    "projectName": "cgrum",
-    "completed": true,
-    "overview": {
-      "images": [
-        "https://github.com/pdkkg/images/blob/68dfe13aec4879d52a692b7ce44bcd586b02c2b1/10_dashboard.png?raw=true",
-        "https://raw.githubusercontent.com/spotmies/images/main/cgrum/04b97e170635643.6461df0a67acf.png",
-        "https://raw.githubusercontent.com/spotmies/images/main/cgrum/0305f8170635643.6461df0a651ad.png",
-        "https://raw.githubusercontent.com/spotmies/images/main/cgrum/295857170635643.6461df0a63b8c.png"
-      ],
-      "techstack": ["figma", "flutter", "nodejs", "aws"],
-      "content": [
-        {
-          "image": "https://raw.githubusercontent.com/spotmies/images/main/cgrum/04b97e170635643.6461df0a67acf.png",
-          "title": "CGRUM Project Description",
-          "description": " CGRUM is an innovative QR scanning application with a rewarding system designed to captivate and engage customers by gamifying their digital media experiences. By offering tangible or intangible benefits, CGRUM aims to increase customer interest and attraction in traditional television marketing. CGRUM is an innovative QR scanning application with a rewarding system designed to captivate and engage customers by gamifying their digital media experiences. By offering tangible or intangible benefits, CGRUM aims to increase customer interest and attraction in traditional television marketing."
-        },
-        {
-          "title": " Key Features:",
-          "description": "1. QR Scanning: CGRUM enables users to scan QR codes embedded within advertisements on television or in movie theatres. 2. Reward System: Users who successfully scan the QR codes through the CGRUM app become eligible for exciting offers, rewards, and cashback. 3. Increased Audience Engagement: By incentivizing users to scan QR codes, CGRUM encourages viewers to watch more advertisements, leading to an increased presence on screens for companies and television channels. 4. Tangible Benefits: CGRUM transforms the viewing experience by providing users with tangible benefits, making the process of watching ads enjoyable and rewarding."
-        },
-        {
-          "image": "https://raw.githubusercontent.com/spotmies/images/main/cgrum/0305f8170635643.6461df0a651ad.png",
-          "title": "How It Works:",
-          "description": "1. Advertisements displayed on a television or in movie theatres contain randomly generated QR codes placed strategically within the ad. 2. Users can scan these QR codes using the CGRUM app. 3. Upon successful scanning, eligible users receive exclusive offers, rewards, and cashback. 4. This incentivizes users to actively engage with advertisements and increases the chances of them watching more ads to gain additional rewards. 5. As a result, companies have a greater opportunity to showcase their ads to a receptive audience, while television channels attract more clients due to the enhanced effectiveness of their advertising platform."
-        },
-        {
-          "title": "Challenges Faced and Overcome:",
-          "description": "During the development of CGRUM, we encountered several challenges. One of the significant hurdles was generating QR codes in a short amount of time. However, our dedicated team successfully resolved this issue, ensuring the seamless and rapid generation of QR codes. Additionally, scanning QR codes within a tight timeframe and issuing rewards to eligible users presented another challenge. Through meticulous optimization and careful consideration, we overcame these obstacles, guaranteeing a smooth and rewarding user experience."
-        },
-        {
-          "image": "https://raw.githubusercontent.com/spotmies/images/main/cgrum/295857170635643.6461df0a63b8c.png",
-          "title": " Conclusion: ",
-          "description": " CGRUM represents a groundbreaking approach to digital media experiences. By leveraging QR scanning and a reward system, CGRUM not only captivates viewers but also provides valuable benefits to users and opportunities for companies and television channels. This application redefines the relationship between advertisers and viewers, creating a win-win situation for all parties involved. Join us in revolutionizing the way advertisements are consumed and appreciated with CGRUM."
-        }
-      ],
-      "links": {
-        "website": "https://www.schemaxtech.com",
-        "android": "https://play.google.com/store/apps/details?id=com.asquaregokarting",
-        "ios": "https://play.google.com/store/apps/details?id=com.asquaregokarting"
-      }
-    }
-  },
-
-  {
-    "description": "Crypto MX is a cutting-edge crypto trading application that brings the world of digital currencies right to your fingertips. With real-time data and comprehensive market insights, Crypto MX empowers you to stay informed and make informed trading decisions.",
-
-    "image": "https://github.com/pdkkg/images/blob/68dfe13aec4879d52a692b7ce44bcd586b02c2b1/11_crypto.png?raw=true",
-    "projectLink": "https://google.com",
-    "tags": ["Web 3"],
-    "title": "Crypto MX",
-    "projectName": "crypto-mx",
-    "completed": false,
-    "overview": {
-      "images": [
-        "https://github.com/pdkkg/images/blob/68dfe13aec4879d52a692b7ce44bcd586b02c2b1/11_crypto.png?raw=true"
-      ],
-      "techstack": ["flutter", "aws"],
-      "content": [
-        {
-          "title": "Project Description",
-          "description": "Crypto MX is a cutting-edge crypto trading application that brings the world of digital currencies right to your fingertips. With real-time data and comprehensive market insights, Crypto MX empowers you to stay informed and make informed trading decisions."
-        },
-        {
-          "title": " Explore the World of Cryptocurrencies",
-          "description": " Crypto MX provides a seamless and user-friendly interface where you can access the latest information on various cryptocurrencies. Whether you're a seasoned trader or just starting out, Crypto MX is designed to cater to your needs."
-        },
-        {
-          "title": "Stay Updated with Live Prices",
-          "description": " With the integration of over 15 trusted APIs, Crypto MX ensures that you have access to accurate and up-to-date prices of all major cryptocurrencies. From Bitcoin to Ethereum, Litecoin to Ripple, and beyond, you can monitor the fluctuations and trends in real time."
-        },
-        {
-          "title": "Charting Tools for Informed Decisions",
-          "description": "Make informed trading decisions with the help of Crypto MX's advanced charting tools. Analyze historical data, identify patterns, and gain insights into market trends. With these powerful tools at your disposal, you can plan your trading strategies with confidence."
-        },
-        {
-          "title": "Convenient and User-Friendly",
-          "description": " Crypto MX offers a user-friendly interface that is intuitive and easy to navigate. Whether you're on a mobile device or desktop, you can access your favourite features and monitor the crypto market on the go."
-        },
-        {
-          "title": "Uncompromised Security ",
-          "description": " We take the security of your data seriously. Crypto MX prioritizes the protection of your personal information and implements robust security measures to ensure a safe trading environment. Your privacy and peace of mind are our top priorities."
-        },
-        {
-          "title": "Join the Crypto Revolution",
-          "description": " Whether you're an experienced trader or a crypto enthusiast, Crypto MX is the perfect companion for your crypto trading journey. Stay ahead of the game, track prices, and seize profitable opportunities in the ever-evolving world of cryptocurrencies. Please note that Crypto MX currently focuses on providing real-time data and market insights. Wallet integration is not available within the application. This ensures a streamlined and hassle-free trading experience without the need for wallet management. Start your crypto trading adventure with Crypto MX today and unlock the potential of digital currencies like never before. Get ready to dive into the exciting world of crypto trading and seize opportunities that can shape your financial future."
-        }
-      ],
-      "links": {
-        "website": "https://www.schemaxtech.com",
-        "android": "https://play.google.com/store/apps/details?id=com.asquaregokarting",
-        "ios": "https://play.google.com/store/apps/details?id=com.asquaregokarting"
-      }
-    }
-  },
-
-  {
     "description": " Project Hex is an exciting NFT (non-fungible token) based project developed with blockchain technology, specifically using Solidity for secure and accurate crypto transactions. By leveraging IPFS (InterPlanetary File System) for data storage and retrieval, and integrating with OpenSea, Project Hex provides a seamless and reliable platform for NFT enthusiasts. The project boasts an interactive web UI, designed to enhance the user experience and make navigating the world of NFTs simple and enjoyable.",
 
     "image": "https://github.com/pdkkg/images/blob/68dfe13aec4879d52a692b7ce44bcd586b02c2b1/12_project.png?raw=true",
@@ -824,67 +1076,7 @@
       }
     }
   },
-  {
-    "description": "Vihaan Electrix is a comprehensive e-commerce platform developed using Flutter, React.js, and Node.js. It serves as an efficient electric bike booking platform that enables users to browse and book electric vehicles. Additionally, the platform provides access to service stations for maintenance and repair services. Vihaan Electrix focuses on simplifying the transition to electric mobility by addressing various facets of electric vehicle ownership.",
 
-    "image": "https://raw.githubusercontent.com/spotmies/images/main/vihaan%20electrix/d4490a169035379.6446288349b24.png",
-    "projectLink": "https://vihaanelectrix.in",
-    "tags": ["Web 2"],
-    "title": "Vihaan Electrix",
-    "projectName": "vihaan-electrix",
-    "completed": true,
-    "overview": {
-      "images": [
-        "https://raw.githubusercontent.com/spotmies/images/main/vihaan%20electrix/d4490a169035379.6446288349b24.png",
-        "https://github.com/pdkkg/images/blob/68dfe13aec4879d52a692b7ce44bcd586b02c2b1/13_vihan.png?raw=true",
-        "https://raw.githubusercontent.com/spotmies/images/main/vihaan%20electrix/7afc2a169035379.644628834b379.png",
-        "https://raw.githubusercontent.com/spotmies/images/main/vihaan%20electrix/ef0cca169035379.644628834c0a4.png",
-        "https://raw.githubusercontent.com/spotmies/images/main/vihaan%20electrix/8bc55d169035379.644628834a6f8.png"
-      ],
-      "techstack": [
-        "adobexd",
-        "flutter",
-        "reactjs",
-        "firebase",
-        "mongodb",
-        "nodejs"
-      ],
-      "content": [
-        {
-          "image": "https://github.com/pdkkg/images/blob/68dfe13aec4879d52a692b7ce44bcd586b02c2b1/13_vihan.png?raw=true",
-          "title": "Project Description",
-          "description": " Vihaan Electrix is a comprehensive e-commerce platform developed using Flutter, React.js, and Node.js. It serves as an efficient electric bike booking platform that enables users to browse and book electric vehicles. Additionally, the platform provides access to service stations for maintenance and repair services. Vihaan Electrix focuses on simplifying the transition to electric mobility by addressing various facets of electric vehicle ownership."
-        },
-        {
-          "image": "https://raw.githubusercontent.com/spotmies/images/main/vihaan%20electrix/7afc2a169035379.644628834b379.png",
-          "title": " Mission:",
-          "description": "At Vihaan Electrix, our mission is to accelerate the global shift towards e-mobility. We strive to provide standardized care solutions that effectively address the multifaceted challenges associated with electric vehicle usage. By offering a user-friendly platform, reliable service centres, and an extensive vehicle catalogue, we aim to empower individuals to embrace sustainable transportation solutions."
-        },
-        {
-          "image": "https://raw.githubusercontent.com/spotmies/images/main/vihaan%20electrix/7afc2a169035379.644628834b379.png",
-          "title": "Key Features:",
-          "description": " 1. Vehicle Booking: Our platform enables users to easily book electric bikes, facilitating a seamless and convenient booking process. With a comprehensive catalogue featuring a wide range of electric vehicles, users can explore various models, specifications, and pricing options to find the perfect fit for their needs. 2. Service Stations: Vihaan Electrix ensures that users can access authorized service centres for their electric vehicles. These service stations are equipped with skilled technicians and state-of-the-art facilities to provide professional maintenance and repair services. Our goal is to ensure that electric vehicle owners can enjoy a reliable and hassle-free ownership experience 3. Charging Stations: To support the growing electric vehicle ecosystem, Vihaan Electrix offers a comprehensive list of nearby charging stations. Users can easily locate these stations on the platform, providing them with convenient access to charging infrastructure. This feature encourages the adoption of electric vehicles by addressing range anxiety concerns and facilitating long-distance travel. 4. Test Drives: We understand the importance of test drives in the decision-making process. Therefore, Vihaan Electrix allows users to schedule test drives to experience the performance, handling, and features of electric bikes firsthand. This feature instils confidence in potential buyers, helping them make informed decisions about their electric vehicle purchases. 5.Vehicle Catalog: Our platform showcases a diverse range of electric vehicles sourced from renowned manufacturers such as PureEV, BOOM, and Bgauss. Users can explore detailed information about each vehicle, including specifications, features, and pricing. This comprehensive catalogue ensures that users have access to a wide selection of high-quality electric bikes. 6.Mobile Application & Website: Vihaan Electrix offers a visually appealing and user-friendly mobile application, providing a seamless and intuitive experience for users on the go. Additionally, we have designed and developed a responsive website that serves as an online platform for users to explore, learn about, and engage with Vihaan Electrix."
-        },
-        {
-          "title": "Tech Stack:",
-          "description": "1. Mobile Application: The mobile application has been developed using the Flutter framework, allowing for cross-platform compatibility and ensuring a consistent user experience across both iOS and Android devices. Flutter's rich UI capabilities and performance optimization contribute to a smooth and engaging user interface. 2. Backend: Our robust backend infrastructure is powered by Node.js, a scalable and efficient JavaScript runtime. The backend utilizes MongoDB as the database management system, ensuring data integrity and flexibility for future enhancements. 3. Hosting: The entire project is hosted on the Heroku platform, providing a reliable and scalable hosting solution. This ensures optimal performance, availability, and seamless deployment of updates. 4. Animations: Beautifully crafted animations have been integrated into the mobile application, enhancing the user interface and delivering an engaging experience. The animations add visual appeal, improve user interaction, and create a sense of dynamism within the application."
-        },
-        {
-          "image": "https://raw.githubusercontent.com/spotmies/images/main/vihaan%20electrix/ef0cca169035379.644628834c0a4.png",
-          "title": " Challenges:",
-          "description": " 1. Scalable Database Structure: Developing a scalable database structure capable of accommodating the platform's expanding user base and efficiently managing large volumes of data posed a significant challenge. We implemented an optimized database design, leveraging the flexibility and scalability of MongoDB to ensure seamless performance as the platform grows. 2.Mobile Application Animations: Incorporating visually appealing animations into the mobile application required meticulous attention to detail and careful optimization. Our team of skilled designers and developers worked collaboratively to create fluid and responsive animations, enhancing the overall user experience while maintaining optimal performance on various devices. Please note that while the project has been successfully completed and delivered to the client, the official launch on app stores is yet to take place. Vihaan Electrix aims to revolutionize the electric vehicle industry by providing a reliable and user-centric platform that promotes sustainable transportation options."
-        },
-        {
-          "image": "https://raw.githubusercontent.com/spotmies/images/main/vihaan%20electrix/8bc55d169035379.644628834a6f8.png"
-        }
-      ],
-      "links": {
-        "website": "https://www.schemaxtech.com",
-        "android": "https://play.google.com/store/apps/details?id=com.asquaregokarting",
-        "ios": "https://play.google.com/store/apps/details?id=com.asquaregokarting"
-      }
-    }
-  },
   {
     "description": "Visakhapatnam's premier two-wheeler rental service. We are here to make your travel experience in Visakhapatnam convenient and enjoyable. Whether you need a bike or a scooter for short distances or longer trips, Chalo Ride has got you covered. With our commitment to affordable prices and excellent service, we aim to provide you with the best value for your money.",
 
