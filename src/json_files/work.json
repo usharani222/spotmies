@@ -210,11 +210,7 @@
           "description": " Cypher-B provides a range of functionalities that streamline the recruitment process and enhance trust between employers and candidates. With easy registration, verified candidates, enhanced transparency, and the ability to track past records, Cypher-B offers a comprehensive solution for efficient and reliable hiring",
           "image": "https://raw.githubusercontent.com/spotmies/images/main/%20cypherb/1e7a56168877497.6442516a7a7dc.png"
         },
-        {
-          "title": " Flexible Track Design and Variety of Races",
-          "description": " Our track at A Square Go Karting stands out for its unique and flexible nature. With a beach view, the track can be modified as and when required. This ensures that our karting enthusiasts always have a new challenge waiting for them, keeping the excitement alive. The track is suitable for various types of races and events, including customized tracks, championships, and practice sessions for both adults and children. Whether you are a professional driver or a complete beginner, our track guarantees an exciting and enjoyable experience for everyone.",
-          "image": "https://raw.githubusercontent.com/spotmies/images/main/%20cypherb/4ea5ba168877497.6442516a7c78c.png"
-        },
+
         {
           "title": "Easy Registration",
           "description": " Joining Cypher-B is a seamless process. Users can easily register as employees, employers, or colleges and securely add their academic details to the blockchain. This ensures that their records are stored permanently, providing a reliable source of information that only authorized parties can access.",
@@ -243,7 +239,8 @@
         },
         {
           "title": " Get a Job ",
-          "description": " Employers on the platform are actively seeking talented candidates like you. With your verified profile and outstanding interview performance, you increase your chances of landing your dream job. Stand out from the crowd and secure exciting career opportunities through Cypher-B."
+          "description": " Employers on the platform are actively seeking talented candidates like you. With your verified profile and outstanding interview performance, you increase your chances of landing your dream job. Stand out from the crowd and secure exciting career opportunities through Cypher-B.",
+          "image": "https://raw.githubusercontent.com/spotmies/images/main/%20cypherb/4ea5ba168877497.6442516a7c78c.png"
         },
         {
           "title": "Technologies Used: ",
@@ -403,63 +400,63 @@
       }
     }
   },
-
   {
-    "description": "Experience the thrill of the Pum Pend Ump collection as we embark on an exciting journey to the bull market. With each mint, we'll pump this collection for seven days, and on the eighth day, we have something big to announce! Get ready to join us in this thrilling adventure where the market is our playground.",
+    "description": "Introducing VIP Food Delivery, an innovative food delivery app designed to provide you with a premium and hassle-free culinary experience. With our beautifully crafted UI screens, we aimed to showcase the potential of this app, although the project itself did not materialize.",
 
-    "image": "https://github.com/pdkkg/images/blob/68dfe13aec4879d52a692b7ce44bcd586b02c2b1/7_pumpendump.png?raw=true",
+    "image": "https://raw.githubusercontent.com/spotmies/images/main/vip%20delivery%20app/273d89169222763.644905769d34d.png",
     "projectLink": "https://pumpendump.com",
-    "tags": ["Web 3"],
-    "title": "Pum Pend Ump",
-    "projectName": "pum-pend-ump",
+    "tags": ["Web 2"],
+    "title": "VIP Food delivery",
+    "projectName": "vip-food-delivery",
     "completed": true,
     "overview": {
       "images": [
-        "https://github.com/pdkkg/images/blob/68dfe13aec4879d52a692b7ce44bcd586b02c2b1/7_pumpendump.png?raw=true",
-        "https://raw.githubusercontent.com/spotmies/images/main/pum%20pend%20ump/4975a6170360363.645c81b8c56d4.png",
-        "https://raw.githubusercontent.com/spotmies/images/main/pum%20pend%20ump/6ce970170360363.645c81b8c2c9e.png",
-        "https://raw.githubusercontent.com/spotmies/images/main/pum%20pend%20ump/e7f895170360363.645c81b8c3cdb.png"
+        "https://raw.githubusercontent.com/spotmies/images/main/vip%20delivery%20app/273d89169222763.644905769d34d.png",
+        "https://raw.githubusercontent.com/spotmies/images/main/vip%20delivery%20app/809406169222763.644905769c5bb.png",
+        "https://raw.githubusercontent.com/spotmies/images/main/vip%20delivery%20app/fcee06169222763.6449067b9af79.png",
+        "https://raw.githubusercontent.com/spotmies/images/main/vip%20delivery%20app/92c3bb169222763.6449067b9bc99.png"
       ],
-      "techstack": [
-        "nextjs",
-        "tailwind",
-        "vercel",
-        "firebase",
-        "metamask",
-        "solidity",
-        "ethereum"
-      ],
+      "techstack": ["figma"],
       "content": [
         {
-          "image": "https://raw.githubusercontent.com/spotmies/images/main/pum%20pend%20ump/4975a6170360363.645c81b8c56d4.png",
+          "image": "https://raw.githubusercontent.com/spotmies/images/main/vip%20delivery%20app/42c779169222763.6449067b99fe8.png",
           "title": "Project Description",
-          "description": " Experience the thrill of the Pum Pend Ump collection as we embark on an exciting journey to the bull market. With each mint, we'll pump this collection for seven days, and on the eighth day, we have something big to announce! Get ready to join us in this thrilling adventure where the market is our playground"
+          "description": "Introducing VIP Food Delivery, an innovative food delivery app designed to provide you with a premium and hassle-free culinary experience. With our beautifully crafted UI screens, we aimed to showcase the potential of this app, although the project itself did not materialize."
         },
         {
-          "title": " Royalties and Roadmap: ",
-          "description": " At Pum Pend Ump, we believe in giving back. That's why 50% of the royalties generated from this collection will be allocated towards marketing initiatives. We're committed to pumping our project and ensuring its visibility in the market. Together, we can create the momentum needed to take this collection to new heights."
+          "image": "https://raw.githubusercontent.com/spotmies/images/main/vip%20delivery%20app/809406169222763.644905769c5bb.png",
+          "title": "Elegant User Interface",
+          "description": "Experience a visually stunning and intuitive interface that makes browsing and ordering a delight. Our meticulously designed UI screens create an immersive experience, ensuring seamless navigation and a visually pleasing interface."
         },
         {
-          "title": "Easy Registration",
-          "description": " Joining Cypher-B is a seamless process. Users can easily register as employees, employers, or colleges and securely add their academic details to the blockchain. This ensures that their records are stored permanently, providing a reliable source of information that only authorized parties can access."
+          "title": "Extensive Restaurant Selection",
+          "description": "Discover a wide range of premium restaurants and culinary delights at your fingertips. With VIP Food Delivery, explore menus featuring delectable dishes from renowned chefs and establishments, bringing a world of gastronomic excellence to your doorstep."
         },
         {
-          "title": "The Seven-Day Roadmap:",
-          "description": "Our roadmap will unfold gradually, day by day, just like exclusive announcements on our Discord channel. Make sure to stay tuned and check for daily updates as we reveal exciting developments and collaborations throughout the seven-day period after mint. Each day brings something special, building anticipation and keeping the community engaged."
+          "title": "Customizable Orders",
+          "description": "Tailor your orders to your exact preferences with ease. VIP Food Delivery allows you to personalize your meals, accommodating dietary restrictions and specific cravings, ensuring a truly personalized dining experience."
         },
         {
-          "image": "https://raw.githubusercontent.com/spotmies/images/main/pum%20pend%20ump/6ce970170360363.645c81b8c2c9e.png",
-          "title": "Record Sales on Launch Day:",
-          "description": "Pum Pend Ump made waves in the NFT world with its lightning-fast sales. In less than seven minutes after the project's launch, all 3,769 bags were minted, marking a significant milestone. The overwhelming response from our community made this project the fastest-selling NFT collection to date. We're grateful for the support and enthusiasm that has propelled us forward."
+          "image": "https://raw.githubusercontent.com/spotmies/images/main/vip%20delivery%20app/fcee06169222763.6449067b9af79.png",
+          "title": "Real-Time Order Tracking",
+          "description": "Stay informed with real-time updates on your order's status. Track your delivery from the moment it leaves the restaurant until it arrives at your doorstep, giving you peace of mind and a sense of control over your dining experience."
         },
         {
-          "title": "Technology Used: ",
-          "description": " To bring this project to life, we harnessed the power of cutting-edge technologies. Our development stack includes Firebase for seamless backend functionality, React.js for a dynamic and interactive user interface, and Vercel for reliable hosting. Additionally, we utilized Figma, a leading design tool, to create captivating visuals that resonate with our audience."
+          "title": "Secure and Seamless Payments",
+          "description": "Enjoy a secure and hassle-free payment process. VIP Food Delivery supports various payment options, ensuring smooth and secure transactions, allowing you to focus on savoring your meal without any worries."
         },
         {
-          "image": "https://raw.githubusercontent.com/spotmies/images/main/pum%20pend%20ump/e7f895170360363.645c81b8c3cdb.png",
-          "title": "Featured on OpenSea:",
-          "description": " We're proud to share that Pum Pend Ump has been featured on the prestigious OpenSea platform. This recognition showcases the quality and appeal of our collection, giving us broader exposure to a global audience of NFT enthusiasts. Explore our unique artwork and become a part of the Pum Pend Ump community on OpenSea."
+          "title": "Exclusive Offers and Rewards",
+          "description": "Unlock VIP perks, exclusive discounts, and rewards for your loyalty. As a VIP Food Delivery customer, you'll enjoy special benefits, ensuring that each order comes with a delightful surprise, enhancing your overall culinary journey."
+        },
+        {
+          "title": "Professional Delivery Service",
+          "description": "Experience reliable and efficient delivery. VIP Food Delivery ensures that your orders are handled with utmost care and delivered promptly by our dedicated fleet of drivers, making sure your food arrives fresh and on time."
+        },
+        {
+          "image": "https://raw.githubusercontent.com/spotmies/images/main/vip%20delivery%20app/92c3bb169222763.6449067b9bc99.png",
+          "title": "Conclusion",
+          "description": "Although the VIP Food Delivery project didn't come to fruition, our demo UI screens showcase the elegance and sophistication of this premium food delivery experience. We remain committed to delivering exceptional design solutions and helping businesses bring their visions to life."
         }
       ],
       "links": {
@@ -516,6 +513,71 @@
           "image": "https://raw.githubusercontent.com/spotmies/images/main/nandhi%20krushi/e46f88170631031.6461cc59b2caa.png",
           "title": "Conclusion: ",
           "description": " Nandikrushi stands as a game-changing platform that revolutionizes the way farmers and consumers connect in the world of organic food delivery. With a user-friendly consumer app and dedicated apps for farmers, restaurants, and stores, Nandikrushi seamlessly bridges the gap between the source and the end consumer. By prioritizing transparency, authenticity, and traceability, the platform empowers users to make informed choices about their groceries, while supporting farmers and promoting sustainable practices. Through the implementation of advanced technologies like Flutter, Opencart, Razorpay, and React.js, Nandikrushi delivers a superior user experience, ensuring a seamless journey for every stakeholder. Our commitment to client satisfaction is evident in our visually appealing and intuitive interface, designed to simplify the grocery shopping experience. One of the standout features of Nandikrushi is the ability for end users to track and trace their food and groceries back to the farmer, knowing the exact origin of their produce. This level of transparency fosters trust and strengthens the bond between consumers and the source of their food, promoting a deeper understanding and appreciation for sustainable farming practices. Despite the challenges faced during development, including the implementation of multiple user roles and the need for seamless integration, our dedicated team overcame these obstacles with innovative solutions. The result is a comprehensive platform that caters to the unique requirements of each stakeholder, ensuring a seamless and efficient supply chain. Nandikrushi's mission to deliver organic food and groceries while empowering farmers and consumers is an essential step towards a more sustainable and conscious future. By providing a reliable and convenient platform, Nandikrushi is driving positive change in the industry, encouraging healthier lifestyles, and supporting local farming communities. Join us on this transformative journey to the world of organic food delivery, where transparency, authenticity, and sustainability are at the forefront. Together, let's create a healthier and more connected world through Nandikrushi."
+        }
+      ],
+      "links": {
+        "website": "https://www.schemaxtech.com",
+        "android": "https://play.google.com/store/apps/details?id=com.asquaregokarting",
+        "ios": "https://play.google.com/store/apps/details?id=com.asquaregokarting"
+      }
+    }
+  },
+  {
+    "description": "Experience the thrill of the Pum Pend Ump collection as we embark on an exciting journey to the bull market. With each mint, we'll pump this collection for seven days, and on the eighth day, we have something big to announce! Get ready to join us in this thrilling adventure where the market is our playground.",
+
+    "image": "https://github.com/pdkkg/images/blob/68dfe13aec4879d52a692b7ce44bcd586b02c2b1/7_pumpendump.png?raw=true",
+    "projectLink": "https://pumpendump.com",
+    "tags": ["Web 3"],
+    "title": "Pum Pend Ump",
+    "projectName": "pum-pend-ump",
+    "completed": true,
+    "overview": {
+      "images": [
+        "https://github.com/pdkkg/images/blob/68dfe13aec4879d52a692b7ce44bcd586b02c2b1/7_pumpendump.png?raw=true",
+        "https://raw.githubusercontent.com/spotmies/images/main/pum%20pend%20ump/4975a6170360363.645c81b8c56d4.png",
+        "https://raw.githubusercontent.com/spotmies/images/main/pum%20pend%20ump/6ce970170360363.645c81b8c2c9e.png",
+        "https://raw.githubusercontent.com/spotmies/images/main/pum%20pend%20ump/e7f895170360363.645c81b8c3cdb.png"
+      ],
+      "techstack": [
+        "nextjs",
+        "tailwind",
+        "vercel",
+        "firebase",
+        "metamask",
+        "solidity",
+        "ethereum"
+      ],
+      "content": [
+        {
+          "image": "https://raw.githubusercontent.com/spotmies/images/main/pum%20pend%20ump/4975a6170360363.645c81b8c56d4.png",
+          "title": "Project Description",
+          "description": " Experience the thrill of the Pum Pend Ump collection as we embark on an exciting journey to the bull market. With each mint, we'll pump this collection for seven days, and on the eighth day, we have something big to announce! Get ready to join us in this thrilling adventure where the market is our playground"
+        },
+        {
+          "title": " Royalties and Roadmap: ",
+          "description": " At Pum Pend Ump, we believe in giving back. That's why 50% of the royalties generated from this collection will be allocated towards marketing initiatives. We're committed to pumping our project and ensuring its visibility in the market. Together, we can create the momentum needed to take this collection to new heights."
+        },
+        {
+          "title": "Easy Registration",
+          "description": " Joining Cypher-B is a seamless process. Users can easily register as employees, employers, or colleges and securely add their academic details to the blockchain. This ensures that their records are stored permanently, providing a reliable source of information that only authorized parties can access."
+        },
+        {
+          "title": "The Seven-Day Roadmap:",
+          "description": "Our roadmap will unfold gradually, day by day, just like exclusive announcements on our Discord channel. Make sure to stay tuned and check for daily updates as we reveal exciting developments and collaborations throughout the seven-day period after mint. Each day brings something special, building anticipation and keeping the community engaged."
+        },
+        {
+          "image": "https://raw.githubusercontent.com/spotmies/images/main/pum%20pend%20ump/6ce970170360363.645c81b8c2c9e.png",
+          "title": "Record Sales on Launch Day:",
+          "description": "Pum Pend Ump made waves in the NFT world with its lightning-fast sales. In less than seven minutes after the project's launch, all 3,769 bags were minted, marking a significant milestone. The overwhelming response from our community made this project the fastest-selling NFT collection to date. We're grateful for the support and enthusiasm that has propelled us forward."
+        },
+        {
+          "title": "Technology Used: ",
+          "description": " To bring this project to life, we harnessed the power of cutting-edge technologies. Our development stack includes Firebase for seamless backend functionality, React.js for a dynamic and interactive user interface, and Vercel for reliable hosting. Additionally, we utilized Figma, a leading design tool, to create captivating visuals that resonate with our audience."
+        },
+        {
+          "image": "https://raw.githubusercontent.com/spotmies/images/main/pum%20pend%20ump/e7f895170360363.645c81b8c3cdb.png",
+          "title": "Featured on OpenSea:",
+          "description": " We're proud to share that Pum Pend Ump has been featured on the prestigious OpenSea platform. This recognition showcases the quality and appeal of our collection, giving us broader exposure to a global audience of NFT enthusiasts. Explore our unique artwork and become a part of the Pum Pend Ump community on OpenSea."
         }
       ],
       "links": {
