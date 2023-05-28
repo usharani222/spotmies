@@ -9,7 +9,7 @@ export default function DesignSlide() {
       className="h-[100vh] w-[100vw] bg-bg1 relative"
       style={{
         backgroundImage:
-          "url(https://raw.githubusercontent.com/pdkkg/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/12_.png)",
+          "url(https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/12_.png)",
         backgroundAttachment: "fixed",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",

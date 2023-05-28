@@ -44,7 +44,7 @@ export default function Services() {
                   description:
                     "Transform your ideas into reality with our expert product design services",
                   image:
-                    "https://raw.githubusercontent.com/pdkkg/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/02_.png",
+                    "https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/02_.png",
                 })}
               </div>
             </Fade>
@@ -62,7 +62,7 @@ export default function Services() {
                     description:
                       "From ideation to launch, our web development services deliver excellence at every step",
                     image:
-                      "https://raw.githubusercontent.com/pdkkg/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/03_.png",
+                      "https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/03_.png",
                   })}
                 </div>
               </Fade>
@@ -78,7 +78,7 @@ export default function Services() {
                     description:
                       "Empower your business with the transformative potential of blockchain technology",
                     image:
-                      "https://raw.githubusercontent.com/pdkkg/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/04_ethereum.png",
+                      "https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/04_ethereum.png",
                   })}
                 </div>
               </Fade>
@@ -98,7 +98,7 @@ export default function Services() {
                   description:
                     "Maximize your device's potential with our expert Windows & Mac services.",
                   image:
-                    "https://raw.githubusercontent.com/pdkkg/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/04_.png",
+                    "https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/04_.png",
                 })}
               </div>
             </Fade>
@@ -114,7 +114,7 @@ export default function Services() {
                   description:
                     "Building Mobile apps that not only look great but perform flawlessly across all devices",
                   image:
-                    "https://raw.githubusercontent.com/pdkkg/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/05_.png",
+                    "https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/05_.png",
                 })}
               </div>
             </Fade>

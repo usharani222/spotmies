@@ -156,7 +156,7 @@ export const testimonials = [
     when: "8 months ago",
     timeStamp: "1657612842000",
     image:
-      "https://raw.githubusercontent.com/pdkkg/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/19_vamsi.jpeg",
+      "https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/19_vamsi.jpeg",
     text: "Spotmies team provided top-notch customer service. Our project was completed in a timely manner, and the quality of the work was outstanding.",
   },
   {
@@ -165,7 +165,7 @@ export const testimonials = [
     when: "1 months ago",
     timeStamp: "1673510442000",
     image:
-      "https://raw.githubusercontent.com/pdkkg/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/20_Ravi.jpeg",
+      "https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/20_Ravi.jpeg",
     text: "UI Designer in this team is very good at suggesting ideas to get more attention for the clients businesses while frontend & the blockchain devs are exceptionally experienced & excellent in their respective fields. Really impressed by their work, 10/10 would recommend.",
   },
 
@@ -175,7 +175,7 @@ export const testimonials = [
     timeStamp: "1676188842000",
     when: "2 months ago",
     image:
-      "https://raw.githubusercontent.com/pdkkg/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/21_.png",
+      "https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/21_.png",
     text: "We chose spotmies because of responsive and trust work on delivery on time. They implemented cleared designs and latest strategies for outlining and reporting for every stage of the development process.",
   },
   {
@@ -320,59 +320,59 @@ export const clients = [
   {
     name: "Schemax",
     image:
-      "https://raw.githubusercontent.com/pdkkg/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/c_01_.png",
+      "https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/c_01_.png",
     link: "https://www.schemaxtech.com",
   },
   {
     name: "Decentrialz",
     image:
-      "https://raw.githubusercontent.com/pdkkg/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/c_02.png",
+      "https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/c_02.png",
     link: "https://decentrialz.com",
   },
   {
     name: "Sweken",
     image:
-      "https://raw.githubusercontent.com/pdkkg/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/c_03_.png",
+      "https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/c_03_.png",
     link: "https://sweken.com",
   },
   {
     name: "Indie skull syndicate",
     image:
-      "https://raw.githubusercontent.com/pdkkg/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/c_04_.png",
+      "https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/c_04_.png",
     link: "https://indieskullsyndicate.xyz",
   },
   {
     name: "A Square Entertainment",
     image:
-      "https://raw.githubusercontent.com/pdkkg/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/c_05_.png",
+      "https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/c_05_.png",
     link: "https://asquaregokarting.com",
   },
   {
     name: "CypherB",
     image:
-      "https://raw.githubusercontent.com/pdkkg/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/c_06_.png",
+      "https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/c_06_.png",
     link: "https://cypherb.com",
   },
   {
     name: "Advait Labs",
     image:
-      "https://raw.githubusercontent.com/pdkkg/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/c_07_.png",
+      "https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/c_07_.png",
     link: "https://advaitlabs.com",
   },
   {
     name: "AU Incubation Centre",
     image:
-      "https://raw.githubusercontent.com/pdkkg/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/c_08_.png",
+      "https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/c_08_.png",
   },
   {
     name: "Chalo Ride",
     image:
-      "https://raw.githubusercontent.com/pdkkg/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/c-09-.png",
+      "https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/c-09-.png",
   },
   {
     name: "Mr Bikes",
     image:
-      "https://raw.githubusercontent.com/pdkkg/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/c_10-.png",
+      "https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/c_10-.png",
   },
   {
     name: "The 10x Academy",
@@ -392,12 +392,12 @@ export const clients = [
   {
     name: "CGRUM",
     image:
-      "https://raw.githubusercontent.com/pdkkg/images/90e541b79f9a1ccb39ee14da711dc084152755e0/CGRUM%20logo.png",
+      "https://raw.githubusercontent.com/spotmies/images/90e541b79f9a1ccb39ee14da711dc084152755e0/CGRUM%20logo.png",
   },
   {
     name: "NandiKrushi",
     image:
-      "https://raw.githubusercontent.com/pdkkg/images/90e541b79f9a1ccb39ee14da711dc084152755e0/nandhi%20krushi.png",
+      "https://raw.githubusercontent.com/spotmies/images/90e541b79f9a1ccb39ee14da711dc084152755e0/nandhi%20krushi.png",
   }
 
 ];

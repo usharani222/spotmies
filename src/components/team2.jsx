@@ -13,7 +13,7 @@ export default function TeamSlide2() {
   const teamJson = [
     {
       image:
-        "https://raw.githubusercontent.com/pdkkg/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/t_07-.jpeg",
+        "https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/t_07-.jpeg",
       name: "Satish Kumar Saride",
       designation: "Founder & CEO",
       social: {
@@ -23,7 +23,7 @@ export default function TeamSlide2() {
     },
     {
       image:
-        "https://raw.githubusercontent.com/pdkkg/images/858b0957133c26f8c629524cb4d7074eb66f535f/sekhar.jpg",
+        "https://raw.githubusercontent.com/spotmies/images/858b0957133c26f8c629524cb4d7074eb66f535f/sekhar.jpg",
       name: "Sekhar javvadi",
       designation: "Co-Founder & Tech Lead",
       social: {
@@ -34,7 +34,7 @@ export default function TeamSlide2() {
     },
     {
       image:
-        "https://raw.githubusercontent.com/pdkkg/images/858b0957133c26f8c629524cb4d7074eb66f535f/ProductDesigner.jpeg",
+        "https://raw.githubusercontent.com/spotmies/images/858b0957133c26f8c629524cb4d7074eb66f535f/ProductDesigner.jpeg",
       name: "Venkat",
       designation: "Product Architect",
       social: {
@@ -45,7 +45,7 @@ export default function TeamSlide2() {
 
     {
       image:
-        "https://raw.githubusercontent.com/pdkkg/images/858b0957133c26f8c629524cb4d7074eb66f535f/hemanth.jpg",
+        "https://raw.githubusercontent.com/spotmies/images/858b0957133c26f8c629524cb4d7074eb66f535f/hemanth.jpg",
       name: "Hemanth Kumar",
       designation: "Head of Blockchain Development",
       social: {

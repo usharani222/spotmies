@@ -27,7 +27,7 @@ export default function TechSlide() {
     },
     {
       name: "Biconomy",
-      icon: "https://raw.githubusercontent.com/pdkkg/images/43f94647a0c49df8fe085358c8c69101d6a4df53/biconomy.png",
+      icon: "https://raw.githubusercontent.com/spotmies/images/43f94647a0c49df8fe085358c8c69101d6a4df53/biconomy.png",
     },
   ];
 
