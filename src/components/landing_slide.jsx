@@ -6,6 +6,21 @@ const image =
   // "https://images.unsplash.com/photo-1543269664-56d93c1b41a6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80";
   // "https://nftstorage.link/ipfs/bafybeifur6x6mg6u6465nojbgtuckodzghkeovjoltga7cysdzmuyvj7ku";
   "https://user-images.githubusercontent.com/63062130/235426000-7fe76fdf-a3d4-4f5c-8068-6388ffebac2f.jpeg";
+        var prevScrollpos = window.pageYOffset;
+      window.onscroll = function() {
+      var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+          document.getElementById("navigationBar").style.top = "0";
+        }
+        else
+        {
+          document.getElementById("navigationBar").style.top  = "-60px";
+        }
+        prevScrollpos=currentScrollPos;
+      }
+ 
+          
+      
 
 const LandingSlide = () => {
   return (
@@ -102,6 +117,7 @@ export const Navbarr = ({ noScrollEffect }) => {
       .scrollIntoView({ behavior: "smooth" });
     setIsOpen(false);
   };
+  
 
   const scheduleMeeting = () => {
     const calendlyLink = "https://calendly.com/sekhar_javvadi/30min";
@@ -132,6 +148,7 @@ export const Navbarr = ({ noScrollEffect }) => {
         navigationBar.classList.remove("shadow-sm");
         // setToggleNavbar(false);
       }
+      
     });
   }, []);
 
@@ -175,7 +192,7 @@ export const Navbarr = ({ noScrollEffect }) => {
             </svg>
           </button>
         </div>
-        <div className="hidden md:flex items-center">
+        <div className="hidden md:flex items-center" >
           <a
             onClick={() => navigation("services")}
             className={`${
@@ -268,6 +285,12 @@ export const Navbarr = ({ noScrollEffect }) => {
     </nav>
   );
 };
+
+// constant=getElementById.navigationBar;
+// if(window.scrollTo)
+// {
+//   display=block;
+// }
 
 export default LandingSlide;
 
